@@ -2,9 +2,9 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-23-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-19-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-171+-d9822b?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Projects-59+-56b6c2?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-22-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Vulns_reported-176+-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Projects-60+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Since-2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
@@ -57,7 +57,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (11)
+### 🐛 Published GitHub advisories (no CVE assigned) (14)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -65,12 +65,15 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction in Form\V | CWE-285/CWE-862 | [`GHSA-93v2-gcw2-vfwc`](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
 | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows Authentic | CWE-94/CWE-200 | [`GHSA-9p83-4w63-7c24`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
+| `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | CWE-200/CWE-918 | [`GHSA-4jc5-g844-4x33`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
+| `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish-* plugi | CWE-20/CWE-200/CWE-918 | [`GHSA-96fx-pqc3-28xv`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
 | `probo` | Cross-tenant IDOR via unvalidated FK references | CWE-639 | [`GHSA-c74x-79w6-63jh`](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
 | `statamic` | Missing authorization on navigation endpoint allows disclosure of restricted ent | CWE-639/CWE-862 | [`GHSA-qh8c-7588-qfrv`](https://github.com/statamic/cms/security/advisories/GHSA-qh8c-7588-qfrv) |
 | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
 | `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 | [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) |
 | `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 | [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) |
+| `monitoring-plugins` | Symlink following in logfile legacy database migration | CWE-59/CWE-367 | [`GHSA-w2gg-hx6w-24w3`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-w2gg-hx6w-24w3) |
 | `openproject` | Content Security Policy img-src wildcard enables cross-origin pixel tracking and | CWE-200 | [`GHSA-m5p8-h274-f7w8`](https://github.com/opf/openproject/security/advisories/GHSA-m5p8-h274-f7w8) |
 
 ---
@@ -86,7 +89,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**137+ further findings** reported across **59+ projects** are either resolved privately
+**139+ further findings** reported across **60+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
