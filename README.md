@@ -260,6 +260,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [HuntingFavicoShodan](https://github.com/Pig-Tail/HuntingFavicoShodan) | Find phishing sites by favicon hash via Shodan |
 | [ReconToolTop](https://github.com/Pig-Tail/ReconToolTop) · [Recond_subdomains](https://github.com/Pig-Tail/Recond_subdomains) | Subdomain recon (alive hosts, ports, no API) |
 | [Cert](https://github.com/Pig-Tail/Cert) | 📜 Certifications &amp; training (indexed) |
+| [GLPI SNMP-scan PoC](https://gist.github.com/Pig-Tail/560032514a1f0506583131099ae5d686) | 📓 Gist — PoC for unauthenticated SNMP network scanning in GLPI Agent ToolBox (CWE-918) |
 
 ---
 
