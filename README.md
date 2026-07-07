@@ -258,14 +258,17 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🎓 Certifications &amp; training (58 total)
 
-**Red Team / Offensive:** MCRTA · CRTS v2 · C3SA · Offensive Phishing Operations · RedInfraCraft · C2 Development
-**Malware dev / exploitation:** Malware Development Essentials &amp; Intermediate · Advanced Process Injection v2 · OST2 **Exp4011** · **Fuzz1001** · **Dbg1011** · **Arch2821** · OffensiveRust · offensiveC#
-**Cloud:** IAM · AWS AMI security · Azure Pentest Lab (SANS) · MCBTA
-**Web / API / Mobile:** Hacking APIs · Practical Web AppSec · Mobile App Pentesting · PEH
-**ICS / OT / IoT:** 210W-07/09 ICS · OT Security · Medical Device Security · IoT Pentesting
-**AI security:** Claude Computer Use — From Prompt Injection to Raining Shells
+| Category | Certifications &amp; courses |
+|:--|:--|
+| 🔴 **Red Team / Offensive** | MCRTA · CRTS v2 · C3SA · Offensive Phishing Operations · RedInfraCraft · C2 Development · Ekoparty Red Team 101 |
+| 🧬 **Malware Dev / Exploitation** | Malware Development Essentials · Malware Development Intermediate · Advanced Process Injection v2 · OST2 Exp4011 · OST2 Fuzz1001 · OST2 Dbg1011 · OST2 Arch2821 · OffensiveRust · offensiveC# · Windows API Hooking · How To Write A Shellcode · Evil ClickOnce |
+| ☁️ **Cloud** | IAM / Access Guardian · AWS AMI Security · Azure Pentest Lab (SANS) · MCBTA · AWS Flow Logs analysis · External Attack Surface (AWS) |
+| 🌐 **Web / API / Mobile** | Hacking APIs · Practical Web App Security &amp; Testing · Mobile Application Pentesting · Practical Ethical Hacking · Movement, Pivoting &amp; Persistence |
+| 🏭 **ICS / OT / IoT / Medical** | 210W-07 ICS Vulnerabilities · 210W-09 IT &amp; ICS Attack Methodologies · OT Security · Medical Device Security · IoT Pentesting |
+| 🔵 **Blue / Purple / DFIR / CTI** | Purple Teaming Fundamentals · CTI (SANS) · HELK · MITRE ATT&amp;CK · Practical Malware Analysis &amp; Triage |
+| 🤖 **AI Security** | Claude Computer Use — From Prompt Injection to Raining Shells |
 
-<sub>→ full indexed set in <a href="https://github.com/Pig-Tail/Cert">Cert</a>.</sub>
+<sub>→ full indexed set (58 certificates) in <a href="https://github.com/Pig-Tail/Cert">Pig-Tail/Cert</a>.</sub>
 
 ---
 
