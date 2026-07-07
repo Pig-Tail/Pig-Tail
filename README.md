@@ -244,6 +244,13 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
+### 🔬 Research & vendor disclosures
+
+- **Microsoft Windows — StorSvc RPC EoP** · The Storage Service registers its ALPC/RPC interface (`44d1520b-…`) with a **NULL security callback and NULL security descriptor**, so any unprivileged local user can invoke all 36 procedures. `SvcTriggerStorageCleanup` drives `StorSvc` (running as SYSTEM) into `CreateProcessW("cleanmgr.exe", …)` **without impersonating the caller** → SYSTEM process creation from a standard user (missing authorization, CWE-285). Reported to MSRC — Case **111782** (VULN-180255). *(Related tooling: [alpc-toolkit](https://github.com/Pig-Tail/alpc-toolkit).)*
+- **OpenStreetMap** — reported and fixed several issues in the OSM website, **publicly credited** by the project: TOTP-cookie handling, CSP rules, and a private-message rate-limit bypass — [PR #7045](https://github.com/openstreetmap/openstreetmap-website/pull/7045) · [#7046](https://github.com/openstreetmap/openstreetmap-website/pull/7046) · [#7047](https://github.com/openstreetmap/openstreetmap-website/pull/7047) · [announcement](https://community.openstreetmap.org/t/what-s-new-on-the-openstreetmap-website/130080/30).
+
+---
+
 ### 🧰 Tools &amp; research
 
 | Repo | What it is |
