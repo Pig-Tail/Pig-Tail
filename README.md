@@ -2,7 +2,7 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-23-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-22-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-176+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-60+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Since-2017-8b95a5?labelColor=24292f&style=flat-square">
@@ -34,7 +34,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-42187**](https://www.cve.org/CVERecord?id=CVE-2026-42187) | `glpi-agent` | Proxy plugin can allow arbitrary file write if `local_store` is enabled | — |
 | [**CVE-2026-45621**](https://www.cve.org/CVERecord?id=CVE-2026-45621) | `glpi-agent` | MongoDB inventory module allows JavaScript injection via unescaped login | — |
 | [**CVE-2026-46615**](https://www.cve.org/CVERecord?id=CVE-2026-46615) | `glpi-agent` | Database inventory modules execute OS commands with unsanitized database | — |
-| [**CVE-2026-48728**](https://www.cve.org/CVERecord?id=CVE-2026-48728) | `glpi-inventory-plugin` | Job enumeration and status manipulation on Deploy, Collect, and ESX agen | — |
+| [**CVE-2026-48728**](https://www.cve.org/CVERecord?id=CVE-2026-48728) | `glpi-inventory-plugin` | Job enumeration and status manipulation on Deploy, Collect, and ESX agen | [advisory](https://github.com/glpi-project/glpi-inventory-plugin/security/advisories/GHSA-xj72-9f7x-f4hm) |
 | [**CVE-2026-48730**](https://www.cve.org/CVERecord?id=CVE-2026-48730) | `glpi-inventory-plugin` | Reflected XSS | — |
 | [**CVE-2026-49285**](https://www.cve.org/CVERecord?id=CVE-2026-49285) | `glpi-agent` | OS Command Injection in GLPI Agent ToolBox Results export via unsanitize | — |
 | [**CVE-2026-52764**](https://www.cve.org/CVERecord?id=CVE-2026-52764) | `glpi-agent` | MSSQL inventory module executes OS commands with unsanitized database na | — |
@@ -57,7 +57,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (14)
+### 🐛 Published GitHub advisories (no CVE assigned) (22)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -75,6 +75,14 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 | [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) |
 | `monitoring-plugins` | Symlink following in logfile legacy database migration | CWE-59/CWE-367 | [`GHSA-w2gg-hx6w-24w3`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-w2gg-hx6w-24w3) |
 | `openproject` | Content Security Policy img-src wildcard enables cross-origin pixel tracking and | CWE-200 | [`GHSA-m5p8-h274-f7w8`](https://github.com/opf/openproject/security/advisories/GHSA-m5p8-h274-f7w8) |
+| `formie` | Integration `form-settings` action allows SSRF and exfiltration of stored integration credentials | CWE-862/CWE-918/CWE-915 | [`GHSA-v3f3-cmj4-cvj9`](https://github.com/verbb/formie/security/advisories/GHSA-v3f3-cmj4-cvj9) |
+| `formie` | Missing authorization on the sent-notification resend modal exposes submission PII | CWE-200/CWE-639/CWE-862 | [`GHSA-9rg8-2wvr-fgjh`](https://github.com/verbb/formie/security/advisories/GHSA-9rg8-2wvr-fgjh) |
+| `formie` | Unauthenticated users can overwrite another user's incomplete submission via the `submit` action | CWE-639/CWE-862 | [`GHSA-584p-f93j-wpgc`](https://github.com/verbb/formie/security/advisories/GHSA-584p-f93j-wpgc) |
+| `formie` | `save-submission` allows anonymous submission creation and privileged parameter override (captcha/spam bypass) | CWE-693/CWE-862/CWE-915 | [`GHSA-5mv8-8rcv-wp5f`](https://github.com/verbb/formie/security/advisories/GHSA-5mv8-8rcv-wp5f) |
+| `formie` | Stored XSS in the form-import preview via unescaped title, handle, and notification name | CWE-79 | [`GHSA-xphf-8742-29m4`](https://github.com/verbb/formie/security/advisories/GHSA-xphf-8742-29m4) |
+| `probo` | Public e-signature API: any trust-center visitor can complete another visitor's NDA signature and inject audit-trail events | CWE-639/CWE-862 | [`GHSA-22xj-f767-ppw6`](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
+| `probo` | Vertical privilege escalation: an org ADMIN mints an OWNER membership via `createUser`, bypassing the owner-only gate | CWE-269/CWE-863 | [`GHSA-cppp-g98f-gfpp`](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
+| `probo` | Unauthenticated cross-tenant / hidden-item disclosure via `Query.node` in the public Trust Center API | CWE-284/CWE-639 | [`GHSA-w23w-f7v2-625w`](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
 
 ---
 
