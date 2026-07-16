@@ -2,9 +2,9 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-30-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-30-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-183+-d9822b?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Projects-63+-56b6c2?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Vulns_reported-185+-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Since-2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
@@ -64,10 +64,11 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (18)
+### 🐛 Published GitHub advisories (no CVE assigned) (19)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
+| `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 | [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
 | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | CWE-22 | [`GHSA-p34x-fmph-9fjx`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
 | `kirby` | Access to image files and limited access to JSON files outside of the site root  | CWE-22 | [`GHSA-9vx2-j98c-p72w`](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
@@ -100,7 +101,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**135+ further findings** reported across **63+ projects** are either resolved privately
+**136+ further findings** reported across **64+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
