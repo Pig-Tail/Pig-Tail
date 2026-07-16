@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-29-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-29-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-30-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-30-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-183+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-63+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Since-2017-8b95a5?labelColor=24292f&style=flat-square">
@@ -25,7 +25,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (29)
+### 🎯 Assigned CVEs (30)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -52,18 +52,19 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-57565**](https://www.cve.org/CVERecord?id=CVE-2026-57565) | `readest` | Cross-tenant object write via unsanitized fileName in /api/storage/uploa | — |
 | [**CVE-2026-57566**](https://www.cve.org/CVERecord?id=CVE-2026-57566) | `readest` | Unauthenticated SSRF / open request proxy in /api/opds/proxy | — |
 | [**CVE-2026-57567**](https://www.cve.org/CVERecord?id=CVE-2026-57567) | `readest` | Unscoped Tauri IPC download_file/upload_file allow arbitrary local file  | — |
-| [**CVE-2026-59249**](https://www.cve.org/CVERecord?id=CVE-2026-59249) | `mint` | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign tolerance | — |
+| [**CVE-2026-59249**](https://www.cve.org/CVERecord?id=CVE-2026-59249) | `mint` | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign tolerance | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-x3x7-96vm-6h2w) |
 | [**CVE-2026-61699**](https://www.cve.org/CVERecord?id=CVE-2026-61699) | `nebula-mesh` | Certificate revocation is never enforced at the mesh: nebula-agent drops | [advisory](https://github.com/forgekeep/nebula-mesh/security/advisories/GHSA-cm26-5974-52h8) |
 | [**CVE-2026-62263**](https://www.cve.org/CVERecord?id=CVE-2026-62263) | `OpenAM` | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilter depth | — |
 | [**CVE-2026-62366**](https://www.cve.org/CVERecord?id=CVE-2026-62366) | `opendj` | OpenDJ Unauthenticated stack exhaustion when decoding an LDAP search fil | — |
 | [**CVE-2026-62373**](https://www.cve.org/CVERecord?id=CVE-2026-62373) | `opendj` | OpenDJ JMX MBean-argument deserialization without a serial filter | — |
 | [**CVE-2026-62375**](https://www.cve.org/CVERecord?id=CVE-2026-62375) | `opendj` | OpenDJ Unbounded VLV offset array allocation → memory-exhaustion DoS | — |
+| [**CVE-2026-62989**](https://www.cve.org/CVERecord?id=CVE-2026-62989) | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction i | [advisory](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (19)
+### 🐛 Published GitHub advisories (no CVE assigned) (18)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -71,7 +72,6 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `kirby` | Access to image files and limited access to JSON files outside of the site root  | CWE-22 | [`GHSA-9vx2-j98c-p72w`](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | CWE-269/CWE-863 | [`GHSA-cppp-g98f-gfpp`](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
-| `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction in Form\V | CWE-285/CWE-862 | [`GHSA-93v2-gcw2-vfwc`](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
 | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows Authentic | CWE-94/CWE-200 | [`GHSA-9p83-4w63-7c24`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
 | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | CWE-200/CWE-918 | [`GHSA-4jc5-g844-4x33`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
