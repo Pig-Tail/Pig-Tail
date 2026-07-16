@@ -1,7 +1,7 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-30-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-31-b5185c?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-185+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
@@ -25,7 +25,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (30)
+### 🎯 Assigned CVEs (31)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -59,6 +59,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-62373**](https://www.cve.org/CVERecord?id=CVE-2026-62373) | `opendj` | OpenDJ JMX MBean-argument deserialization without a serial filter | — |
 | [**CVE-2026-62375**](https://www.cve.org/CVERecord?id=CVE-2026-62375) | `opendj` | OpenDJ Unbounded VLV offset array allocation → memory-exhaustion DoS | — |
 | [**CVE-2026-62989**](https://www.cve.org/CVERecord?id=CVE-2026-62989) | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction i | [advisory](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
+| [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | — |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
@@ -101,7 +102,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**136+ further findings** reported across **64+ projects** are either resolved privately
+**135+ further findings** reported across **64+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
