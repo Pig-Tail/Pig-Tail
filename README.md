@@ -1,7 +1,7 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-31-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-33-b5185c?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-185+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
@@ -25,7 +25,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (31)
+### 🎯 Assigned CVEs (33)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -60,12 +60,14 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-62375**](https://www.cve.org/CVERecord?id=CVE-2026-62375) | `opendj` | OpenDJ Unbounded VLV offset array allocation → memory-exhaustion DoS | — |
 | [**CVE-2026-62989**](https://www.cve.org/CVERecord?id=CVE-2026-62989) | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction i | [advisory](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
 | [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | — |
+| [**CVE-2026-63432**](https://www.cve.org/CVERecord?id=CVE-2026-63432) | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows A | [advisory](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
+| [**CVE-2026-63444**](https://www.cve.org/CVERecord?id=CVE-2026-63444) | `glpi-agent` | OS Command Injection via server-controlled archive filename in Deploy ta | — |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (19)
+### 🐛 Published GitHub advisories (no CVE assigned) (18)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -75,7 +77,6 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | CWE-269/CWE-863 | [`GHSA-cppp-g98f-gfpp`](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
 | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
-| `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows Authentic | CWE-94/CWE-200 | [`GHSA-9p83-4w63-7c24`](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
 | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | CWE-200/CWE-918 | [`GHSA-4jc5-g844-4x33`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
 | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish-* plugi | CWE-20/CWE-200/CWE-918 | [`GHSA-96fx-pqc3-28xv`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
 | `probo` | Cross-tenant IDOR via unvalidated FK references | CWE-639 | [`GHSA-c74x-79w6-63jh`](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
@@ -102,7 +103,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**135+ further findings** reported across **64+ projects** are either resolved privately
+**134+ further findings** reported across **64+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
