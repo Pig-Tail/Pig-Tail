@@ -1,7 +1,7 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-33-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-34-b5185c?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-187+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (33)
+### 🎯 Assigned CVEs (34)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -63,12 +63,13 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | — |
 | [**CVE-2026-63432**](https://www.cve.org/CVERecord?id=CVE-2026-63432) | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows A | [advisory](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
 | [**CVE-2026-63444**](https://www.cve.org/CVERecord?id=CVE-2026-63444) | `glpi-agent` | OS Command Injection via server-controlled archive filename in Deploy ta | — |
+| [**CVE-2026-63505**](https://www.cve.org/CVERecord?id=CVE-2026-63505) | `probo` | Cross-tenant IDOR via unvalidated FK references | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (18)
+### 🐛 Published GitHub advisories (no CVE assigned) (17)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -80,7 +81,6 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | CWE-200/CWE-918 | [`GHSA-4jc5-g844-4x33`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
 | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish-* plugi | CWE-20/CWE-200/CWE-918 | [`GHSA-96fx-pqc3-28xv`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
-| `probo` | Cross-tenant IDOR via unvalidated FK references | CWE-639 | [`GHSA-c74x-79w6-63jh`](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
 | `statamic` | Missing authorization on navigation endpoint allows disclosure of restricted ent | CWE-639/CWE-862 | [`GHSA-qh8c-7588-qfrv`](https://github.com/statamic/cms/security/advisories/GHSA-qh8c-7588-qfrv) |
 | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
