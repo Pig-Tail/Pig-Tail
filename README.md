@@ -3,9 +3,10 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-33-b5185c?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-185+-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Vulns_reported-187+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Since-2017-8b95a5?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/CVE_research-since_2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
@@ -21,7 +22,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 - 🔭 **Classes I hunt:** RCE &amp; command/arg injection · auth/authz bypass, IDOR &amp; tenant escape · SSRF · path traversal / zip-slip · unsafe deserialization · memory corruption · race/TOCTOU.
 - 🧪 **How I verify:** local instance + benign PoC (sentinel / timing oracle), then an adversarial re-read to kill false positives. No theoretical reports.
-- 🛡️ **Background:** red-team infrastructure &amp; malware-dev tradecraft (see certifications).
+- 🛡️ **Background:** 10+ years in offensive security — red team &amp; ethical hacking (hacking since the early 2010s); red-team infrastructure &amp; malware-dev tradecraft, and CVE research since 2017 (see certifications).
 
 ---
 
@@ -103,7 +104,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**134+ further findings** reported across **64+ projects** are either resolved privately
+**136+ further findings** reported across **64+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
