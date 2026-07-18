@@ -2,7 +2,7 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-34-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-31-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-32-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-187+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -60,7 +60,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-62373**](https://www.cve.org/CVERecord?id=CVE-2026-62373) | `opendj` | OpenDJ JMX MBean-argument deserialization without a serial filter | — |
 | [**CVE-2026-62375**](https://www.cve.org/CVERecord?id=CVE-2026-62375) | `opendj` | OpenDJ Unbounded VLV offset array allocation → memory-exhaustion DoS | — |
 | [**CVE-2026-62989**](https://www.cve.org/CVERecord?id=CVE-2026-62989) | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction i | [advisory](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
-| [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | — |
+| [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | [advisory](https://github.com/netty/netty-incubator-codec-ohttp/security/advisories/GHSA-4899-mpch-38p3) |
 | [**CVE-2026-63432**](https://www.cve.org/CVERecord?id=CVE-2026-63432) | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows A | [advisory](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
 | [**CVE-2026-63444**](https://www.cve.org/CVERecord?id=CVE-2026-63444) | `glpi-agent` | OS Command Injection via server-controlled archive filename in Deploy ta | — |
 | [**CVE-2026-63505**](https://www.cve.org/CVERecord?id=CVE-2026-63505) | `probo` | Cross-tenant IDOR via unvalidated FK references | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
