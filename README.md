@@ -2,9 +2,9 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-35-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-46-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-187+-d9822b?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Projects-64+-56b6c2?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-47-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Vulns_reported-189+-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Projects-65+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/CVE_research-since_2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
@@ -70,7 +70,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (16)
+### 🐛 Published GitHub advisories (no CVE assigned) (17)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -78,6 +78,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | CWE-22 | [`GHSA-p34x-fmph-9fjx`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
 | `kirby` | Access to image files and limited access to JSON files outside of the site root  | CWE-22 | [`GHSA-9vx2-j98c-p72w`](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
+| `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware  | CWE-178/CWE-863 | [`GHSA-hxvh-4h3w-prp9`](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
 | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | CWE-269/CWE-863 | [`GHSA-cppp-g98f-gfpp`](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
 | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | CWE-200/CWE-918 | [`GHSA-4jc5-g844-4x33`](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
@@ -104,7 +105,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**136+ further findings** reported across **64+ projects** are either resolved privately
+**137+ further findings** reported across **65+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
