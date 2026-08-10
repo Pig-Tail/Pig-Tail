@@ -2,9 +2,9 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-41-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-50-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-195+-d9822b?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Projects-66+-56b6c2?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-53-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/CVE_research-since_2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
@@ -76,12 +76,15 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (16)
+### 🐛 Published GitHub advisories (no CVE assigned) (19)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
 | `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 | [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
 | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | CWE-22 | [`GHSA-p34x-fmph-9fjx`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
+| `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | CWE-73/CWE-200 | [`GHSA-7833-fr7j-v32q`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
+| `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | CWE-88/CWE-94 | [`GHSA-284h-m62q-gf8w`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
+| `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | CWE-22/CWE-73 | [`GHSA-8mcc-hrx5-hvxc`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
 | `kirby` | Access to image files and limited access to JSON files outside of the site root  | CWE-22 | [`GHSA-9vx2-j98c-p72w`](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
@@ -110,7 +113,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**138+ further findings** reported across **66+ projects** are either resolved privately
+**138+ further findings** reported across **67+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
