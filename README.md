@@ -1,10 +1,10 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-38-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-47-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-191+-d9822b?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Projects-65+-56b6c2?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-41-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-50-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Vulns_reported-195+-d9822b?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Projects-66+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/CVE_research-since_2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (38)
+### 🎯 Assigned CVEs (41)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -68,12 +68,15 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-67433**](https://www.cve.org/CVERecord?id=CVE-2026-67433) | `monitoring-plugins` | Symlink following in logfile legacy database migration | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-w2gg-hx6w-24w3) |
 | [**CVE-2026-67435**](https://www.cve.org/CVERecord?id=CVE-2026-67435) | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
 | [**CVE-2026-67436**](https://www.cve.org/CVERecord?id=CVE-2026-67436) | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
+| [**CVE-2026-71315**](https://www.cve.org/CVERecord?id=CVE-2026-71315) | `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMid | [advisory](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
+| [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | — |
+| [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | — |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (14)
+### 🐛 Published GitHub advisories (no CVE assigned) (16)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -81,8 +84,10 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | CWE-22 | [`GHSA-p34x-fmph-9fjx`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
 | `kirby` | Access to image files and limited access to JSON files outside of the site root  | CWE-22 | [`GHSA-9vx2-j98c-p72w`](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
-| `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMiddleware  | CWE-178/CWE-863 | [`GHSA-hxvh-4h3w-prp9`](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
+| `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
 | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | CWE-269/CWE-863 | [`GHSA-cppp-g98f-gfpp`](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
+| `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | CWE-22/CWE-200 | [`GHSA-fj3w-533r-fvf6`](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
+| `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | CWE-287/CWE-347 | [`GHSA-r7hw-jx6r-756g`](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
@@ -105,7 +110,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**139+ further findings** reported across **65+ projects** are either resolved privately
+**138+ further findings** reported across **66+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
