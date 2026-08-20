@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-42-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-56-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-48-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-58-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (42)
+### 🎯 Assigned CVEs (48)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -72,12 +72,18 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | — |
 | [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-pq2v-p84w-89vj) |
 | [**CVE-2026-73854**](https://www.cve.org/CVERecord?id=CVE-2026-73854) | `egroupware` | Authorization bypass via api./about. menuaction prefix → privilege escalation to | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
+| [**CVE-2026-75594**](https://www.cve.org/CVERecord?id=CVE-2026-75594) | `kirby` | Access to image files and limited access to JSON files outside of the si | [advisory](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
+| [**CVE-2026-75606**](https://www.cve.org/CVERecord?id=CVE-2026-75606) | `egroupware` | Authenticated SQL injection via col_filter string-key in Base::search()  | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-23hj-xm9r-gwx6) |
+| [**CVE-2026-75609**](https://www.cve.org/CVERecord?id=CVE-2026-75609) | `egroupware` | Post-authentication open redirect via login.php phpgw_forward (webserver | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-7pj6-f27j-wmcw) |
+| [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | `probo` | Broken access control in public e-signature API: any trust-center visito | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
+| [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER m | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
+| [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node i | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (20)
+### 🐛 Published GitHub advisories (no CVE assigned) (16)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -86,10 +92,8 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | CWE-73/CWE-200 | [`GHSA-7833-fr7j-v32q`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
 | `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | CWE-88/CWE-94 | [`GHSA-284h-m62q-gf8w`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
 | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | CWE-22/CWE-73 | [`GHSA-8mcc-hrx5-hvxc`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
-| `kirby` | Access to image files and limited access to JSON files outside of the site root  | CWE-22 | [`GHSA-9vx2-j98c-p72w`](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
-| `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | CWE-269/CWE-863 | [`GHSA-cppp-g98f-gfpp`](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
 | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | CWE-22/CWE-200 | [`GHSA-fj3w-533r-fvf6`](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
 | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | CWE-287/CWE-347 | [`GHSA-r7hw-jx6r-756g`](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
@@ -98,8 +102,6 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 | [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) |
 | `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 | [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) |
 | `openproject` | Content Security Policy img-src wildcard enables cross-origin pixel tracking and | CWE-200 | [`GHSA-m5p8-h274-f7w8`](https://github.com/opf/openproject/security/advisories/GHSA-m5p8-h274-f7w8) |
-| `probo` | Broken access control in public e-signature API: any trust-center visitor can co | CWE-639/CWE-862 | [`GHSA-22xj-f767-ppw6`](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
-| `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node in the pu | CWE-284/CWE-639 | [`GHSA-w23w-f7v2-625w`](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
 | `probo` | Stored XSS in the console via unsanitized Markdown (iframe srcdoc) in Organizati | CWE-79 | [`GHSA-9fx8-47w4-3vw8`](https://github.com/getprobo/probo/security/advisories/GHSA-9fx8-47w4-3vw8) |
 
 ---
@@ -115,7 +117,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**138+ further findings** reported across **67+ projects** are either resolved privately
+**136+ further findings** reported across **67+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
