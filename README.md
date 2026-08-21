@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-48-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-58-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-53-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-60-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (48)
+### 🎯 Assigned CVEs (53)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -78,17 +78,21 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | `probo` | Broken access control in public e-signature API: any trust-center visito | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
 | [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER m | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
 | [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node i | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
+| [**CVE-2026-77312**](https://www.cve.org/CVERecord?id=CVE-2026-77312) | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
+| [**CVE-2026-77316**](https://www.cve.org/CVERecord?id=CVE-2026-77316) | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-con | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
+| [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
+| [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
+| [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (16)
+### 🐛 Published GitHub advisories (no CVE assigned) (14)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
 | `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 | [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
-| `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | CWE-22 | [`GHSA-p34x-fmph-9fjx`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
 | `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | CWE-73/CWE-200 | [`GHSA-7833-fr7j-v32q`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
 | `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | CWE-88/CWE-94 | [`GHSA-284h-m62q-gf8w`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
 | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | CWE-22/CWE-73 | [`GHSA-8mcc-hrx5-hvxc`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
@@ -96,7 +100,6 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
 | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | CWE-22/CWE-200 | [`GHSA-fj3w-533r-fvf6`](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
 | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | CWE-287/CWE-347 | [`GHSA-r7hw-jx6r-756g`](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
-| `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | CWE-918 | [`GHSA-6pm8-6f34-9v3g`](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
 | `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 | [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) |
@@ -117,7 +120,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**136+ further findings** reported across **67+ projects** are either resolved privately
+**134+ further findings** reported across **67+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
