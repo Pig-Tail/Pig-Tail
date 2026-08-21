@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-53-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-60-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-55-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-62-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (53)
+### 🎯 Assigned CVEs (55)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -53,6 +53,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-57565**](https://www.cve.org/CVERecord?id=CVE-2026-57565) | `readest` | Cross-tenant object write via unsanitized fileName in /api/storage/uploa | — |
 | [**CVE-2026-57566**](https://www.cve.org/CVERecord?id=CVE-2026-57566) | `readest` | Unauthenticated SSRF / open request proxy in /api/opds/proxy | — |
 | [**CVE-2026-57567**](https://www.cve.org/CVERecord?id=CVE-2026-57567) | `readest` | Unscoped Tauri IPC download_file/upload_file allow arbitrary local file  | — |
+| [**CVE-2026-58229**](https://www.cve.org/CVERecord?id=CVE-2026-58229) | `mint` | Unbounded HTTP/1 response-header and chunked-trailer accumulation allows | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-qrfr-wh4c-3qhw) |
 | [**CVE-2026-59249**](https://www.cve.org/CVERecord?id=CVE-2026-59249) | `mint` | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign tolerance | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-x3x7-96vm-6h2w) |
 | [**CVE-2026-61699**](https://www.cve.org/CVERecord?id=CVE-2026-61699) | `nebula-mesh` | Certificate revocation is never enforced at the mesh: nebula-agent drops | [advisory](https://github.com/forgekeep/nebula-mesh/security/advisories/GHSA-cm26-5974-52h8) |
 | [**CVE-2026-62263**](https://www.cve.org/CVERecord?id=CVE-2026-62263) | `OpenAM` | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilter depth | [advisory](https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-gf8h-gq53-288j) |
@@ -71,6 +72,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-71315**](https://www.cve.org/CVERecord?id=CVE-2026-71315) | `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMid | [advisory](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
 | [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | — |
 | [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-pq2v-p84w-89vj) |
+| [**CVE-2026-73616**](https://www.cve.org/CVERecord?id=CVE-2026-73616) | `openremote` | Notification delete crosses realm boundaries: any realm admin destroys o | [advisory](https://github.com/openremote/openremote/security/advisories/GHSA-rc23-4mmm-4fx9) |
 | [**CVE-2026-73854**](https://www.cve.org/CVERecord?id=CVE-2026-73854) | `egroupware` | Authorization bypass via api./about. menuaction prefix → privilege escalation to | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
 | [**CVE-2026-75594**](https://www.cve.org/CVERecord?id=CVE-2026-75594) | `kirby` | Access to image files and limited access to JSON files outside of the si | [advisory](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | [**CVE-2026-75606**](https://www.cve.org/CVERecord?id=CVE-2026-75606) | `egroupware` | Authenticated SQL injection via col_filter string-key in Base::search()  | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-23hj-xm9r-gwx6) |
@@ -120,7 +122,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ### 🔒 Under coordinated disclosure
 
-**134+ further findings** reported across **67+ projects** are either resolved privately
+**132+ further findings** reported across **67+ projects** are either resolved privately
 (no public advisory page) or under active coordinated disclosure / vendor embargo — including
 memory-safety bugs in widely-used engines, unauth secret-disclosure and RCE chains, and
 supply-chain issues. Details are withheld until each vendor publishes; they surface here
