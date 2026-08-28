@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-55-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-62-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-56-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-63-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (55)
+### 🎯 Assigned CVEs (56)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -70,18 +70,19 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-67435**](https://www.cve.org/CVERecord?id=CVE-2026-67435) | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
 | [**CVE-2026-67436**](https://www.cve.org/CVERecord?id=CVE-2026-67436) | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
 | [**CVE-2026-71315**](https://www.cve.org/CVERecord?id=CVE-2026-71315) | `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMid | [advisory](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
+| [**CVE-2026-71404**](https://www.cve.org/CVERecord?id=CVE-2026-71404) | `rancher` | Unauthorized ClusterRole overwrite via GlobalRole cr-name annotation | [advisory](https://github.com/rancher/rancher/security/advisories/GHSA-92jp-phmj-wv65) |
 | [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | — |
 | [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-pq2v-p84w-89vj) |
 | [**CVE-2026-73616**](https://www.cve.org/CVERecord?id=CVE-2026-73616) | `openremote` | Notification delete crosses realm boundaries: any realm admin destroys o | [advisory](https://github.com/openremote/openremote/security/advisories/GHSA-rc23-4mmm-4fx9) |
 | [**CVE-2026-73854**](https://www.cve.org/CVERecord?id=CVE-2026-73854) | `egroupware` | Authorization bypass via api./about. menuaction prefix → privilege escalation to | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
-| [**CVE-2026-75594**](https://www.cve.org/CVERecord?id=CVE-2026-75594) | `kirby` | Access to image files and limited access to JSON files outside of the si | [advisory](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
+| [**CVE-2026-75594**](https://www.cve.org/CVERecord?id=CVE-2026-75594) | `kirby` | Access to image files and limited access to JSON files outside of the site root  | [advisory](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
 | [**CVE-2026-75606**](https://www.cve.org/CVERecord?id=CVE-2026-75606) | `egroupware` | Authenticated SQL injection via col_filter string-key in Base::search()  | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-23hj-xm9r-gwx6) |
 | [**CVE-2026-75609**](https://www.cve.org/CVERecord?id=CVE-2026-75609) | `egroupware` | Post-authentication open redirect via login.php phpgw_forward (webserver | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-7pj6-f27j-wmcw) |
-| [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | `probo` | Broken access control in public e-signature API: any trust-center visito | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
-| [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER m | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
-| [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node i | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
-| [**CVE-2026-77312**](https://www.cve.org/CVERecord?id=CVE-2026-77312) | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
-| [**CVE-2026-77316**](https://www.cve.org/CVERecord?id=CVE-2026-77316) | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-con | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
+| [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | `probo` | Broken access control in public e-signature API: any trust-center visitor can co | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
+| [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
+| [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node in the pu | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
+| [**CVE-2026-77312**](https://www.cve.org/CVERecord?id=CVE-2026-77312) | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
+| [**CVE-2026-77316**](https://www.cve.org/CVERecord?id=CVE-2026-77316) | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
 | [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
 | [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
