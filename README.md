@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-56-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-63-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-57-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-64-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (56)
+### 🎯 Assigned CVEs (57)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -86,6 +86,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
 | [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
 | [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
+| [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 (incomplete fix of GHSA-8qqm) | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
