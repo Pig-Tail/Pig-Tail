@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-57-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-64-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-60-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-67-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (57)
+### 🎯 Assigned CVEs (60)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -86,7 +86,10 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
 | [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
 | [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
-| [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 (incomplete fix of GHSA-8qqm) | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
+| [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
+| [**CVE-2026-93537**](https://www.cve.org/CVERecord?id=CVE-2026-93537) | `fleet` | Path traversal in Helm valuesFiles discloses files outside the bundle directory | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-wpfm-r97v-3j4h) |
+| [**CVE-2026-93538**](https://www.cve.org/CVERecord?id=CVE-2026-93538) | `fleet` | Cross-tenant BundleDeployment/Secret disclosure via spoofed cluster labels | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
+| [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
