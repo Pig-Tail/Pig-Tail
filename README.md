@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-61-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-67-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-62-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-68-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (61)
+### 🎯 Assigned CVEs (62)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -91,6 +91,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-93538**](https://www.cve.org/CVERecord?id=CVE-2026-93538) | `fleet` | Cross-tenant BundleDeployment/Secret disclosure via spoofed cluster labels | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
 | [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
 | [**CVE-2026-100414**](https://www.cve.org/CVERecord?id=CVE-2026-100414) | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | [advisory](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
+| [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
