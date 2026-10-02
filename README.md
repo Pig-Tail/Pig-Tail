@@ -2,7 +2,7 @@
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
   <img src="https://img.shields.io/badge/Assigned_CVEs-63-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-69-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-72-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -98,7 +98,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (13)
+### 🐛 Published GitHub advisories (no CVE assigned) (16)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -115,6 +115,9 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 | [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) |
 | `openproject` | Content Security Policy img-src wildcard enables cross-origin pixel tracking and | CWE-200 | [`GHSA-m5p8-h274-f7w8`](https://github.com/opf/openproject/security/advisories/GHSA-m5p8-h274-f7w8) |
 | `probo` | Stored XSS in the console via unsanitized Markdown (iframe srcdoc) in Organizati | CWE-79 | [`GHSA-9fx8-47w4-3vw8`](https://github.com/getprobo/probo/security/advisories/GHSA-9fx8-47w4-3vw8) |
+| `opencti` | Read-only KNOWLEDGE user can delete other users' draft workspaces | CWE-285/CWE-862 | [`GHSA-j2p5-vc4m-xxhx`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-j2p5-vc4m-xxhx) |
+| `opencti` | Unauthenticated resource exhaustion via pre-auth TAXII push body parsing | CWE-400 | [`GHSA-6crf-vqpj-hvr4`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-6crf-vqpj-hvr4) |
+| `opencti` | SSRF via response-controlled pagination URL in JSON ingestion | CWE-918 | [`GHSA-w3h6-4frq-fgm7`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-w3h6-4frq-fgm7) |
 
 ---
 
