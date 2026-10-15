@@ -1,7 +1,7 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-64-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-65-b5185c?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Published_advisories-72-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (64)
+### 🎯 Assigned CVEs (65)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -94,12 +94,13 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
 | **CVE-2026-104258** | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
+| [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (16)
+### 🐛 Published GitHub advisories (no CVE assigned) (15)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
@@ -109,7 +110,6 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | CWE-22/CWE-73 | [`GHSA-8mcc-hrx5-hvxc`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
 | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
-| `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | CWE-287/CWE-347 | [`GHSA-r7hw-jx6r-756g`](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
 | `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 | [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) |
