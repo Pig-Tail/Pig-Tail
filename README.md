@@ -1,8 +1,6 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:24292f,55:b5185c,100:e5654a&height=190&section=header&text=Jorge%20Gonz%C3%A1lez%20Milla&fontSize=44&fontColor=ffffff&fontAlignY=36&desc=Pig-Tail%20%C2%B7%20Offensive%20Security%20%C2%B7%20Vulnerability%20Research&descSize=16&descAlignY=58&animation=fadeIn" alt="Jorge González Milla — Pig-Tail">
+
 <div align="center">
-
-<h1>Jorge González Milla</h1>
-
-<p><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 
 <a href="https://github.com/Pig-Tail"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=E5654A&center=true&vCenter=true&width=640&lines=attack+surface+%E2%86%92+taint+%E2%86%92+working+PoC+%E2%86%92+CVE;RCE+%C2%B7+authz+bypass+%C2%B7+SSRF+%C2%B7+deserialization+%C2%B7+memory+safety;coordinated+disclosure%2C+no+theoretical+reports" alt="attack surface → taint → working PoC → CVE"></a>
 
@@ -21,21 +19,114 @@
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
+<sub><!--sev:start-->**5** 🟥 Critical · **37** 🟧 High · **28** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
+
 </div>
 
 ---
 
-### `whoami`
+### 🎯 Assigned CVEs (75)
 
-Offensive security engineer and vulnerability researcher. I audit widely-used open-source and
-commercial software for **credible, exploitation-defensible bugs** and drive them through
-coordinated disclosure — attack-surface mapping → taint tracking → a **working PoC** → a
-defensible CVSS write-up. Comfortable across web/API stacks, C/C++ memory safety,
-Go/Rust/PHP/Python, and red-team tooling.
+| CVE | Severity | Project | Vulnerability | GitHub |
+|:--|:--|:--|:--|:--|
+| [**CVE-2026-14620**](https://www.cve.org/CVERecord?id=CVE-2026-14620) | 🟨 Medium | `webpack-dev-server` | webpack-dev-server vulnerable to cross-site request forgery via internal | [advisory](https://github.com/webpack/webpack-dev-server/security/advisories/GHSA-f5vj-f2hx-8m93) |
+| [**CVE-2026-40936**](https://www.cve.org/CVERecord?id=CVE-2026-40936) | 🟧 High | `glpi-agent` | ToolBox plugin can allow unauthenticated path traversal leading to arbit | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-5379-v7xc-36m8) |
+| [**CVE-2026-42187**](https://www.cve.org/CVERecord?id=CVE-2026-42187) | 🟨 Medium | `glpi-agent` | Proxy plugin can allow arbitrary file write if `local_store` is enabled | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-2w23-rj57-xq9c) |
+| [**CVE-2026-45621**](https://www.cve.org/CVERecord?id=CVE-2026-45621) | 🟧 High | `glpi-agent` | MongoDB inventory module allows JavaScript injection via unescaped login | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-xqcp-72qc-36p2) |
+| [**CVE-2026-46615**](https://www.cve.org/CVERecord?id=CVE-2026-46615) | 🟧 High | `glpi-agent` | Database inventory modules execute OS commands with unsanitized database | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-fcgf-g6c2-g838) |
+| [**CVE-2026-48728**](https://www.cve.org/CVERecord?id=CVE-2026-48728) | 🟨 Medium | `glpi-inventory-plugin` | Job enumeration and status manipulation on Deploy, Collect, and ESX agen | [advisory](https://github.com/glpi-project/glpi-inventory-plugin/security/advisories/GHSA-xj72-9f7x-f4hm) |
+| [**CVE-2026-48730**](https://www.cve.org/CVERecord?id=CVE-2026-48730) | 🟧 High | `glpi-inventory-plugin` | Reflected XSS | [advisory](https://github.com/glpi-project/glpi-inventory-plugin/security/advisories/GHSA-97vv-hxvv-9rw8) |
+| [**CVE-2026-49285**](https://www.cve.org/CVERecord?id=CVE-2026-49285) | 🟧 High | `glpi-agent` | OS Command Injection in GLPI Agent ToolBox Results export via unsanitize | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-3974-4pff-75wp) |
+| [**CVE-2026-52764**](https://www.cve.org/CVERecord?id=CVE-2026-52764) | 🟧 High | `glpi-agent` | MSSQL inventory module executes OS commands with unsanitized database na | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-r9rr-vpw9-p66x) |
+| [**CVE-2026-52765**](https://www.cve.org/CVERecord?id=CVE-2026-52765) | 🟨 Medium | `glpi-agent` | Oracle and DB2 inventory modules allow SQL injection in GLPI server-supp | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-4px8-6x8g-722x) |
+| [**CVE-2026-52768**](https://www.cve.org/CVERecord?id=CVE-2026-52768) | 🟨 Medium | `glpi-agent` | Deploy task Path Traversal in Tools::Archive | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-g2f7-8mp5-qw65) |
+| [**CVE-2026-53626**](https://www.cve.org/CVERecord?id=CVE-2026-53626) | 🟧 High | `glpi` | Arbitrary document read | [advisory](https://github.com/glpi-project/glpi/security/advisories/GHSA-q9rc-v6vm-q5mm) |
+| [**CVE-2026-54697**](https://www.cve.org/CVERecord?id=CVE-2026-54697) | 🟨 Medium | `cbssh` | Excessive allocation and integer overflow in DER private-key parsing | [advisory](https://github.com/connectbot/cbssh/security/advisories/GHSA-vc8p-8pxg-rfwg) |
+| [**CVE-2026-54764**](https://www.cve.org/CVERecord?id=CVE-2026-54764) | 🟨 Medium | `traefik` | ForwardAuth middleware leaks X-Forwarded-Port spoofing via untrusted X-F | [advisory](https://github.com/traefik/traefik/security/advisories/GHSA-3q9r-p662-5j8m) |
+| [**CVE-2026-55422**](https://www.cve.org/CVERecord?id=CVE-2026-55422) | 🟨 Medium | `conda-forge` | Stored DOM XSS on conda-forge.org via unsanitized dangerouslySetInnerHTM | [advisory](https://github.com/conda-forge/conda-forge.github.io/security/advisories/GHSA-r5vj-wgjv-r524) |
+| [**CVE-2026-55780**](https://www.cve.org/CVERecord?id=CVE-2026-55780) | 🟩 Low | `NanaZip` | Uncaught exception / unbounded allocation in NanaZip .NET single-file Ex | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-ppm9-5267-rq72) |
+| [**CVE-2026-55781**](https://www.cve.org/CVERecord?id=CVE-2026-55781) | 🟩 Low | `NanaZip` | Unbounded memory allocation (DoS) in NanaZip UFS parser via unvalidated  | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-m34h-jf84-m74h) |
+| [**CVE-2026-55782**](https://www.cve.org/CVERecord?id=CVE-2026-55782) | 🟩 Low | `NanaZip` | Unbounded memory allocation (DoS) in NanaZip WebAssembly parser via atta | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-qxhc-2v6p-wm8m) |
+| [**CVE-2026-55783**](https://www.cve.org/CVERecord?id=CVE-2026-55783) | 🟩 Low | `NanaZip` | NULL pointer dereference in Extract() of all seven NanaZip custom archiv | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-q67r-9cfh-xc29) |
+| [**CVE-2026-57562**](https://www.cve.org/CVERecord?id=CVE-2026-57562) | · | `readest` | Subscription/entitlement hijack: /api/stripe/check binds any paid Checko | — |
+| [**CVE-2026-57565**](https://www.cve.org/CVERecord?id=CVE-2026-57565) | · | `readest` | Cross-tenant object write via unsanitized fileName in /api/storage/uploa | — |
+| [**CVE-2026-57566**](https://www.cve.org/CVERecord?id=CVE-2026-57566) | · | `readest` | Unauthenticated SSRF / open request proxy in /api/opds/proxy | — |
+| [**CVE-2026-57567**](https://www.cve.org/CVERecord?id=CVE-2026-57567) | · | `readest` | Unscoped Tauri IPC download_file/upload_file allow arbitrary local file  | — |
+| [**CVE-2026-58229**](https://www.cve.org/CVERecord?id=CVE-2026-58229) | 🟧 High | `mint` | Unbounded HTTP/1 response-header and chunked-trailer accumulation allows | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-qrfr-wh4c-3qhw) |
+| [**CVE-2026-59249**](https://www.cve.org/CVERecord?id=CVE-2026-59249) | 🟨 Medium | `mint` | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign tolerance | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-x3x7-96vm-6h2w) |
+| [**CVE-2026-61699**](https://www.cve.org/CVERecord?id=CVE-2026-61699) | 🟧 High | `nebula-mesh` | Certificate revocation is never enforced at the mesh: nebula-agent drops | [advisory](https://github.com/forgekeep/nebula-mesh/security/advisories/GHSA-cm26-5974-52h8) |
+| [**CVE-2026-62263**](https://www.cve.org/CVERecord?id=CVE-2026-62263) | 🟥 Critical | `OpenAM` | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilter depth | [advisory](https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-gf8h-gq53-288j) |
+| [**CVE-2026-62366**](https://www.cve.org/CVERecord?id=CVE-2026-62366) | 🟧 High | `opendj` | OpenDJ Unauthenticated stack exhaustion when decoding an LDAP search fil | [advisory](https://github.com/OpenIdentityPlatform/OpenDJ/security/advisories/GHSA-rv4q-c6mr-wxp7) |
+| [**CVE-2026-62373**](https://www.cve.org/CVERecord?id=CVE-2026-62373) | 🟨 Medium | `opendj` | OpenDJ JMX MBean-argument deserialization without a serial filter | [advisory](https://github.com/OpenIdentityPlatform/OpenDJ/security/advisories/GHSA-qj63-3vrg-vcfx) |
+| [**CVE-2026-62375**](https://www.cve.org/CVERecord?id=CVE-2026-62375) | 🟧 High | `opendj` | OpenDJ Unbounded VLV offset array allocation → memory-exhaustion DoS | [advisory](https://github.com/OpenIdentityPlatform/OpenDJ/security/advisories/GHSA-q4wx-wj4j-4657) |
+| [**CVE-2026-62989**](https://www.cve.org/CVERecord?id=CVE-2026-62989) | 🟧 High | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction i | [advisory](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
+| [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | 🟧 High | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | [advisory](https://github.com/netty/netty-incubator-codec-ohttp/security/advisories/GHSA-4899-mpch-38p3) |
+| [**CVE-2026-63432**](https://www.cve.org/CVERecord?id=CVE-2026-63432) | 🟨 Medium | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows A | [advisory](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
+| [**CVE-2026-63444**](https://www.cve.org/CVERecord?id=CVE-2026-63444) | · | `glpi-agent` | OS Command Injection via server-controlled archive filename in Deploy ta | — |
+| [**CVE-2026-63505**](https://www.cve.org/CVERecord?id=CVE-2026-63505) | 🟨 Medium | `probo` | Cross-tenant IDOR via unvalidated FK references | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
+| [**CVE-2026-63744**](https://www.cve.org/CVERecord?id=CVE-2026-63744) | 🟨 Medium | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | [advisory](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
+| [**CVE-2026-64662**](https://www.cve.org/CVERecord?id=CVE-2026-64662) | 🟨 Medium | `statamic` | Missing authorization on navigation endpoint allows disclosure of restri | [advisory](https://github.com/statamic/cms/security/advisories/GHSA-qh8c-7588-qfrv) |
+| [**CVE-2026-67433**](https://www.cve.org/CVERecord?id=CVE-2026-67433) | 🟨 Medium | `monitoring-plugins` | Symlink following in logfile legacy database migration | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-w2gg-hx6w-24w3) |
+| [**CVE-2026-67435**](https://www.cve.org/CVERecord?id=CVE-2026-67435) | 🟨 Medium | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
+| [**CVE-2026-67436**](https://www.cve.org/CVERecord?id=CVE-2026-67436) | 🟧 High | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
+| [**CVE-2026-71315**](https://www.cve.org/CVERecord?id=CVE-2026-71315) | 🟧 High | `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMid | [advisory](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
+| [**CVE-2026-71404**](https://www.cve.org/CVERecord?id=CVE-2026-71404) | 🟧 High | `rancher` | Unauthorized ClusterRole overwrite via GlobalRole cr-name annotation | [advisory](https://github.com/rancher/rancher/security/advisories/GHSA-92jp-phmj-wv65) |
+| [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | 🟨 Medium | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | [advisory](https://github.com/Paymenter/Paymenter/security/advisories/GHSA-5gmm-hjfj-8ff7) |
+| [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | 🟧 High | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-pq2v-p84w-89vj) |
+| [**CVE-2026-73616**](https://www.cve.org/CVERecord?id=CVE-2026-73616) | 🟧 High | `openremote` | Notification delete crosses realm boundaries: any realm admin destroys o | [advisory](https://github.com/openremote/openremote/security/advisories/GHSA-rc23-4mmm-4fx9) |
+| [**CVE-2026-73854**](https://www.cve.org/CVERecord?id=CVE-2026-73854) | 🟥 Critical | `egroupware` | Authorization bypass via api./about. menuaction prefix → privilege escalation to | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
+| [**CVE-2026-75594**](https://www.cve.org/CVERecord?id=CVE-2026-75594) | 🟧 High | `kirby` | Access to image files and limited access to JSON files outside of the site root  | [advisory](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
+| [**CVE-2026-75606**](https://www.cve.org/CVERecord?id=CVE-2026-75606) | 🟧 High | `egroupware` | Authenticated SQL injection via col_filter string-key in Base::search()  | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-23hj-xm9r-gwx6) |
+| [**CVE-2026-75609**](https://www.cve.org/CVERecord?id=CVE-2026-75609) | 🟨 Medium | `egroupware` | Post-authentication open redirect via login.php phpgw_forward (webserver | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-7pj6-f27j-wmcw) |
+| [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | 🟩 Low | `probo` | Broken access control in public e-signature API: any trust-center visitor can co | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
+| [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | 🟧 High | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
+| [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | 🟩 Low | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node in the pu | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
+| [**CVE-2026-76086**](https://www.cve.org/CVERecord?id=CVE-2026-76086) | 🟧 High | `formie` | Integration form-settings action allows SSRF and exfiltration of stored integrat | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-v3f3-cmj4-cvj9) |
+| [**CVE-2026-76087**](https://www.cve.org/CVERecord?id=CVE-2026-76087) | 🟧 High | `formie` | Unauthenticated users can overwrite incomplete submissions via submit action | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-584p-f93j-wpgc) |
+| [**CVE-2026-76089**](https://www.cve.org/CVERecord?id=CVE-2026-76089) | 🟧 High | `formie` | Missing authorization on sent notification resend modal exposes submission PII | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-9rg8-2wvr-fgjh) |
+| [**CVE-2026-77312**](https://www.cve.org/CVERecord?id=CVE-2026-77312) | 🟥 Critical | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
+| [**CVE-2026-77316**](https://www.cve.org/CVERecord?id=CVE-2026-77316) | 🟨 Medium | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
+| [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | 🟧 High | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
+| [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | · | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
+| [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | 🟧 High | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
+| [**CVE-2026-78675**](https://www.cve.org/CVERecord?id=CVE-2026-78675) | 🟧 High | `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
+| [**CVE-2026-78676**](https://www.cve.org/CVERecord?id=CVE-2026-78676) | 🟥 Critical | `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
+| [**CVE-2026-78677**](https://www.cve.org/CVERecord?id=CVE-2026-78677) | 🟧 High | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
+| [**CVE-2026-82659**](https://www.cve.org/CVERecord?id=CVE-2026-82659) | 🟧 High | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | [advisory](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
+| [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | 🟧 High | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
+| [**CVE-2026-89134**](https://www.cve.org/CVERecord?id=CVE-2026-89134) | 🟨 Medium | `wolfssl` | Subject CN name-constraint check bypassed when non-DNS SAN present | — |
+| [**CVE-2026-93537**](https://www.cve.org/CVERecord?id=CVE-2026-93537) | 🟨 Medium | `fleet` | Path traversal in Helm valuesFiles discloses files outside the bundle directory | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-wpfm-r97v-3j4h) |
+| [**CVE-2026-93538**](https://www.cve.org/CVERecord?id=CVE-2026-93538) | 🟧 High | `fleet` | Cross-tenant BundleDeployment/Secret disclosure via spoofed cluster labels | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
+| [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | 🟨 Medium | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
+| [**CVE-2026-97391**](https://www.cve.org/CVERecord?id=CVE-2026-97391) | 🟧 High | `pheditor` | Terminal command-allowlist bypass via argument injection (CWE-88) in pheditor le | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-g3hq-hphg-8fhh) |
+| [**CVE-2026-100414**](https://www.cve.org/CVERecord?id=CVE-2026-100414) | 🟧 High | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | [advisory](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
+| [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | 🟨 Medium | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
+| [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | 🟨 Medium | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
+| [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | · | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
+| [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | 🟧 High | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 
-- 🔭 **Classes I hunt:** RCE &amp; command/arg injection · auth/authz bypass, IDOR &amp; tenant escape · SSRF · path traversal / zip-slip · unsafe deserialization · memory corruption · race/TOCTOU.
-- 🧪 **How I verify:** local instance + benign PoC (sentinel / timing oracle), then an adversarial re-read to kill false positives. No theoretical reports.
-- 🛡️ **Background:** 10+ years in offensive security — red team &amp; ethical hacking (hacking since the early 2010s); red-team infrastructure &amp; malware-dev tradecraft, and CVE research since 2017 (see certifications).
+<sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
+
+---
+
+### 🐛 Published GitHub advisories (no CVE assigned) (12)
+
+| Advisory | Severity | Project | Vulnerability | CWE |
+|:--|:--|:--|:--|:--|
+| [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) | 🟥 Critical | `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 |
+| [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) | 🟧 High | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 |
+| [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) | 🟩 Low | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 |
+| [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) | 🟩 Low | `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 |
+| [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) | 🟩 Low | `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 |
+| [`GHSA-m5p8-h274-f7w8`](https://github.com/opf/openproject/security/advisories/GHSA-m5p8-h274-f7w8) | 🟩 Low | `openproject` | Content Security Policy img-src wildcard enables cross-origin pixel tracking and | CWE-200 |
+| [`GHSA-9fx8-47w4-3vw8`](https://github.com/getprobo/probo/security/advisories/GHSA-9fx8-47w4-3vw8) | 🟨 Medium | `probo` | Stored XSS in the console via unsanitized Markdown (iframe srcdoc) in Organizati | CWE-79 |
+| [`GHSA-j2p5-vc4m-xxhx`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-j2p5-vc4m-xxhx) | 🟨 Medium | `opencti` | Read-only KNOWLEDGE user can delete other users' draft workspaces | CWE-285/CWE-862 |
+| [`GHSA-6crf-vqpj-hvr4`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-6crf-vqpj-hvr4) | 🟧 High | `opencti` | Unauthenticated resource exhaustion via pre-auth TAXII push body parsing | CWE-400 |
+| [`GHSA-w3h6-4frq-fgm7`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-w3h6-4frq-fgm7) | 🟧 High | `opencti` | SSRF via response-controlled pagination URL in JSON ingestion | CWE-918 |
+| [`GHSA-rm89-4h58-wv8j`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-rm89-4h58-wv8j) | 🟨 Medium | `CloudTAK` | Missing connection authorization on POST /api/template — cross-tenant ETL layer  | CWE-639/CWE-862 |
+| [`GHSA-f4cj-5w6j-w765`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-f4cj-5w6j-w765) | 🟨 Medium | `CloudTAK` | Profile API tokens never expire and cannot be revoked (deletion is cosmetic) | CWE-613/CWE-863 |
+
+📂 Runnable PoCs and technical write-ups for every **published &amp; patched** finding live in **[Pig-Tail/security-research](https://github.com/Pig-Tail/security-research)**.
 
 ---
 
@@ -54,7 +145,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | 🟧 | **SimpleSAMLphp saml2** | Unsigned embedded Response bypasses HTTP-Artifact binding (**incomplete fix**) | [CVE-2026-110782](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 | 🟧 | **Probo** | **Account takeover** via OIDC `continue` redirect | [GHSA-r9mf-88r7-g6j9](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
 
-<sub>🟥 Critical · 🟧 High — severity as rated by the vendor / CNA. Full lists below.</sub>
+<sub>🟥 Critical · 🟧 High — severity as rated by the vendor / CNA. Full lists above.</sub>
 
 ---
 
@@ -68,116 +159,17 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-<details open>
-<summary><b>🎯 Assigned CVEs</b> — click to collapse</summary>
+### `whoami`
 
-### 🎯 Assigned CVEs (75)
+Offensive security engineer and vulnerability researcher. I audit widely-used open-source and
+commercial software for **credible, exploitation-defensible bugs** and drive them through
+coordinated disclosure — attack-surface mapping → taint tracking → a **working PoC** → a
+defensible CVSS write-up. Comfortable across web/API stacks, C/C++ memory safety,
+Go/Rust/PHP/Python, and red-team tooling.
 
-| CVE | Project | Vulnerability | GitHub |
-|:--|:--|:--|:--|
-| [**CVE-2026-14620**](https://www.cve.org/CVERecord?id=CVE-2026-14620) | `webpack-dev-server` | webpack-dev-server vulnerable to cross-site request forgery via internal | [advisory](https://github.com/webpack/webpack-dev-server/security/advisories/GHSA-f5vj-f2hx-8m93) |
-| [**CVE-2026-40936**](https://www.cve.org/CVERecord?id=CVE-2026-40936) | `glpi-agent` | ToolBox plugin can allow unauthenticated path traversal leading to arbit | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-5379-v7xc-36m8) |
-| [**CVE-2026-42187**](https://www.cve.org/CVERecord?id=CVE-2026-42187) | `glpi-agent` | Proxy plugin can allow arbitrary file write if `local_store` is enabled | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-2w23-rj57-xq9c) |
-| [**CVE-2026-45621**](https://www.cve.org/CVERecord?id=CVE-2026-45621) | `glpi-agent` | MongoDB inventory module allows JavaScript injection via unescaped login | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-xqcp-72qc-36p2) |
-| [**CVE-2026-46615**](https://www.cve.org/CVERecord?id=CVE-2026-46615) | `glpi-agent` | Database inventory modules execute OS commands with unsanitized database | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-fcgf-g6c2-g838) |
-| [**CVE-2026-48728**](https://www.cve.org/CVERecord?id=CVE-2026-48728) | `glpi-inventory-plugin` | Job enumeration and status manipulation on Deploy, Collect, and ESX agen | [advisory](https://github.com/glpi-project/glpi-inventory-plugin/security/advisories/GHSA-xj72-9f7x-f4hm) |
-| [**CVE-2026-48730**](https://www.cve.org/CVERecord?id=CVE-2026-48730) | `glpi-inventory-plugin` | Reflected XSS | [advisory](https://github.com/glpi-project/glpi-inventory-plugin/security/advisories/GHSA-97vv-hxvv-9rw8) |
-| [**CVE-2026-49285**](https://www.cve.org/CVERecord?id=CVE-2026-49285) | `glpi-agent` | OS Command Injection in GLPI Agent ToolBox Results export via unsanitize | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-3974-4pff-75wp) |
-| [**CVE-2026-52764**](https://www.cve.org/CVERecord?id=CVE-2026-52764) | `glpi-agent` | MSSQL inventory module executes OS commands with unsanitized database na | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-r9rr-vpw9-p66x) |
-| [**CVE-2026-52765**](https://www.cve.org/CVERecord?id=CVE-2026-52765) | `glpi-agent` | Oracle and DB2 inventory modules allow SQL injection in GLPI server-supp | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-4px8-6x8g-722x) |
-| [**CVE-2026-52768**](https://www.cve.org/CVERecord?id=CVE-2026-52768) | `glpi-agent` | Deploy task Path Traversal in Tools::Archive | [advisory](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-g2f7-8mp5-qw65) |
-| [**CVE-2026-53626**](https://www.cve.org/CVERecord?id=CVE-2026-53626) | `glpi` | Arbitrary document read | [advisory](https://github.com/glpi-project/glpi/security/advisories/GHSA-q9rc-v6vm-q5mm) |
-| [**CVE-2026-54697**](https://www.cve.org/CVERecord?id=CVE-2026-54697) | `cbssh` | Excessive allocation and integer overflow in DER private-key parsing | [advisory](https://github.com/connectbot/cbssh/security/advisories/GHSA-vc8p-8pxg-rfwg) |
-| [**CVE-2026-54764**](https://www.cve.org/CVERecord?id=CVE-2026-54764) | `traefik` | ForwardAuth middleware leaks X-Forwarded-Port spoofing via untrusted X-F | [advisory](https://github.com/traefik/traefik/security/advisories/GHSA-3q9r-p662-5j8m) |
-| [**CVE-2026-55422**](https://www.cve.org/CVERecord?id=CVE-2026-55422) | `conda-forge` | Stored DOM XSS on conda-forge.org via unsanitized dangerouslySetInnerHTM | [advisory](https://github.com/conda-forge/conda-forge.github.io/security/advisories/GHSA-r5vj-wgjv-r524) |
-| [**CVE-2026-55780**](https://www.cve.org/CVERecord?id=CVE-2026-55780) | `NanaZip` | Uncaught exception / unbounded allocation in NanaZip .NET single-file Ex | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-ppm9-5267-rq72) |
-| [**CVE-2026-55781**](https://www.cve.org/CVERecord?id=CVE-2026-55781) | `NanaZip` | Unbounded memory allocation (DoS) in NanaZip UFS parser via unvalidated  | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-m34h-jf84-m74h) |
-| [**CVE-2026-55782**](https://www.cve.org/CVERecord?id=CVE-2026-55782) | `NanaZip` | Unbounded memory allocation (DoS) in NanaZip WebAssembly parser via atta | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-qxhc-2v6p-wm8m) |
-| [**CVE-2026-55783**](https://www.cve.org/CVERecord?id=CVE-2026-55783) | `NanaZip` | NULL pointer dereference in Extract() of all seven NanaZip custom archiv | [advisory](https://github.com/M2Team/NanaZip/security/advisories/GHSA-q67r-9cfh-xc29) |
-| [**CVE-2026-57562**](https://www.cve.org/CVERecord?id=CVE-2026-57562) | `readest` | Subscription/entitlement hijack: /api/stripe/check binds any paid Checko | — |
-| [**CVE-2026-57565**](https://www.cve.org/CVERecord?id=CVE-2026-57565) | `readest` | Cross-tenant object write via unsanitized fileName in /api/storage/uploa | — |
-| [**CVE-2026-57566**](https://www.cve.org/CVERecord?id=CVE-2026-57566) | `readest` | Unauthenticated SSRF / open request proxy in /api/opds/proxy | — |
-| [**CVE-2026-57567**](https://www.cve.org/CVERecord?id=CVE-2026-57567) | `readest` | Unscoped Tauri IPC download_file/upload_file allow arbitrary local file  | — |
-| [**CVE-2026-58229**](https://www.cve.org/CVERecord?id=CVE-2026-58229) | `mint` | Unbounded HTTP/1 response-header and chunked-trailer accumulation allows | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-qrfr-wh4c-3qhw) |
-| [**CVE-2026-59249**](https://www.cve.org/CVERecord?id=CVE-2026-59249) | `mint` | HTTP/1 chunk-size desync in Mint via Integer.parse/2 sign tolerance | [advisory](https://github.com/elixir-mint/mint/security/advisories/GHSA-x3x7-96vm-6h2w) |
-| [**CVE-2026-61699**](https://www.cve.org/CVERecord?id=CVE-2026-61699) | `nebula-mesh` | Certificate revocation is never enforced at the mesh: nebula-agent drops | [advisory](https://github.com/forgekeep/nebula-mesh/security/advisories/GHSA-cm26-5974-52h8) |
-| [**CVE-2026-62263**](https://www.cve.org/CVERecord?id=CVE-2026-62263) | `OpenAM` | OpenAM WebAuthn Java deserialization RCE via ObjectInputFilter depth | [advisory](https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-gf8h-gq53-288j) |
-| [**CVE-2026-62366**](https://www.cve.org/CVERecord?id=CVE-2026-62366) | `opendj` | OpenDJ Unauthenticated stack exhaustion when decoding an LDAP search fil | [advisory](https://github.com/OpenIdentityPlatform/OpenDJ/security/advisories/GHSA-rv4q-c6mr-wxp7) |
-| [**CVE-2026-62373**](https://www.cve.org/CVERecord?id=CVE-2026-62373) | `opendj` | OpenDJ JMX MBean-argument deserialization without a serial filter | [advisory](https://github.com/OpenIdentityPlatform/OpenDJ/security/advisories/GHSA-qj63-3vrg-vcfx) |
-| [**CVE-2026-62375**](https://www.cve.org/CVERecord?id=CVE-2026-62375) | `opendj` | OpenDJ Unbounded VLV offset array allocation → memory-exhaustion DoS | [advisory](https://github.com/OpenIdentityPlatform/OpenDJ/security/advisories/GHSA-q4wx-wj4j-4657) |
-| [**CVE-2026-62989**](https://www.cve.org/CVERecord?id=CVE-2026-62989) | `shopper` | Missing authorization on product variant DeleteAction/DeleteBulkAction i | [advisory](https://github.com/shopperlabs/shopper/security/advisories/GHSA-93v2-gcw2-vfwc) |
-| [**CVE-2026-63202**](https://www.cve.org/CVERecord?id=CVE-2026-63202) | `netty-incubator-codec-ohttp` | BinaryHttpParser: Unauthenticated CPU-exhaustion DoS via infinite loop i | [advisory](https://github.com/netty/netty-incubator-codec-ohttp/security/advisories/GHSA-4899-mpch-38p3) |
-| [**CVE-2026-63432**](https://www.cve.org/CVERecord?id=CVE-2026-63432) | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows A | [advisory](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
-| [**CVE-2026-63444**](https://www.cve.org/CVERecord?id=CVE-2026-63444) | `glpi-agent` | OS Command Injection via server-controlled archive filename in Deploy ta | — |
-| [**CVE-2026-63505**](https://www.cve.org/CVERecord?id=CVE-2026-63505) | `probo` | Cross-tenant IDOR via unvalidated FK references | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
-| [**CVE-2026-63744**](https://www.cve.org/CVERecord?id=CVE-2026-63744) | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | [advisory](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
-| [**CVE-2026-64662**](https://www.cve.org/CVERecord?id=CVE-2026-64662) | `statamic` | Missing authorization on navigation endpoint allows disclosure of restri | [advisory](https://github.com/statamic/cms/security/advisories/GHSA-qh8c-7588-qfrv) |
-| [**CVE-2026-67433**](https://www.cve.org/CVERecord?id=CVE-2026-67433) | `monitoring-plugins` | Symlink following in logfile legacy database migration | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-w2gg-hx6w-24w3) |
-| [**CVE-2026-67435**](https://www.cve.org/CVERecord?id=CVE-2026-67435) | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
-| [**CVE-2026-67436**](https://www.cve.org/CVERecord?id=CVE-2026-67436) | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
-| [**CVE-2026-71315**](https://www.cve.org/CVERecord?id=CVE-2026-71315) | `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMid | [advisory](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
-| [**CVE-2026-71404**](https://www.cve.org/CVERecord?id=CVE-2026-71404) | `rancher` | Unauthorized ClusterRole overwrite via GlobalRole cr-name annotation | [advisory](https://github.com/rancher/rancher/security/advisories/GHSA-92jp-phmj-wv65) |
-| [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | [advisory](https://github.com/Paymenter/Paymenter/security/advisories/GHSA-5gmm-hjfj-8ff7) |
-| [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-pq2v-p84w-89vj) |
-| [**CVE-2026-73616**](https://www.cve.org/CVERecord?id=CVE-2026-73616) | `openremote` | Notification delete crosses realm boundaries: any realm admin destroys o | [advisory](https://github.com/openremote/openremote/security/advisories/GHSA-rc23-4mmm-4fx9) |
-| [**CVE-2026-73854**](https://www.cve.org/CVERecord?id=CVE-2026-73854) | `egroupware` | Authorization bypass via api./about. menuaction prefix → privilege escalation to | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
-| [**CVE-2026-75594**](https://www.cve.org/CVERecord?id=CVE-2026-75594) | `kirby` | Access to image files and limited access to JSON files outside of the site root  | [advisory](https://github.com/getkirby/kirby/security/advisories/GHSA-9vx2-j98c-p72w) |
-| [**CVE-2026-75606**](https://www.cve.org/CVERecord?id=CVE-2026-75606) | `egroupware` | Authenticated SQL injection via col_filter string-key in Base::search()  | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-23hj-xm9r-gwx6) |
-| [**CVE-2026-75609**](https://www.cve.org/CVERecord?id=CVE-2026-75609) | `egroupware` | Post-authentication open redirect via login.php phpgw_forward (webserver | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-7pj6-f27j-wmcw) |
-| [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | `probo` | Broken access control in public e-signature API: any trust-center visitor can co | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
-| [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
-| [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node in the pu | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
-| [**CVE-2026-76086**](https://www.cve.org/CVERecord?id=CVE-2026-76086) | `formie` | Integration form-settings action allows SSRF and exfiltration of stored integrat | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-v3f3-cmj4-cvj9) |
-| [**CVE-2026-76087**](https://www.cve.org/CVERecord?id=CVE-2026-76087) | `formie` | Unauthenticated users can overwrite incomplete submissions via submit action | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-584p-f93j-wpgc) |
-| [**CVE-2026-76089**](https://www.cve.org/CVERecord?id=CVE-2026-76089) | `formie` | Missing authorization on sent notification resend modal exposes submission PII | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-9rg8-2wvr-fgjh) |
-| [**CVE-2026-77312**](https://www.cve.org/CVERecord?id=CVE-2026-77312) | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
-| [**CVE-2026-77316**](https://www.cve.org/CVERecord?id=CVE-2026-77316) | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
-| [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
-| [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
-| [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
-| [**CVE-2026-78675**](https://www.cve.org/CVERecord?id=CVE-2026-78675) | `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
-| [**CVE-2026-78676**](https://www.cve.org/CVERecord?id=CVE-2026-78676) | `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
-| [**CVE-2026-78677**](https://www.cve.org/CVERecord?id=CVE-2026-78677) | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
-| [**CVE-2026-82659**](https://www.cve.org/CVERecord?id=CVE-2026-82659) | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | [advisory](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
-| [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
-| [**CVE-2026-89134**](https://www.cve.org/CVERecord?id=CVE-2026-89134) | `wolfssl` | Subject CN name-constraint check bypassed when non-DNS SAN present | — |
-| [**CVE-2026-93537**](https://www.cve.org/CVERecord?id=CVE-2026-93537) | `fleet` | Path traversal in Helm valuesFiles discloses files outside the bundle directory | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-wpfm-r97v-3j4h) |
-| [**CVE-2026-93538**](https://www.cve.org/CVERecord?id=CVE-2026-93538) | `fleet` | Cross-tenant BundleDeployment/Secret disclosure via spoofed cluster labels | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
-| [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
-| [**CVE-2026-97391**](https://www.cve.org/CVERecord?id=CVE-2026-97391) | `pheditor` | Terminal command-allowlist bypass via argument injection (CWE-88) in pheditor le | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-g3hq-hphg-8fhh) |
-| [**CVE-2026-100414**](https://www.cve.org/CVERecord?id=CVE-2026-100414) | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | [advisory](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
-| [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
-| [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
-| [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
-| [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
-
-<sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
-
-</details>
-
-<details open>
-<summary><b>🐛 Published GitHub advisories without a CVE</b> — click to collapse</summary>
-
-### 🐛 Published GitHub advisories (no CVE assigned) (12)
-
-| Project | Vulnerability | CWE | Advisory |
-|:--|:--|:--|:--|
-| `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 | [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
-| `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
-| `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
-| `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 | [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) |
-| `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 | [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) |
-| `openproject` | Content Security Policy img-src wildcard enables cross-origin pixel tracking and | CWE-200 | [`GHSA-m5p8-h274-f7w8`](https://github.com/opf/openproject/security/advisories/GHSA-m5p8-h274-f7w8) |
-| `probo` | Stored XSS in the console via unsanitized Markdown (iframe srcdoc) in Organizati | CWE-79 | [`GHSA-9fx8-47w4-3vw8`](https://github.com/getprobo/probo/security/advisories/GHSA-9fx8-47w4-3vw8) |
-| `opencti` | Read-only KNOWLEDGE user can delete other users' draft workspaces | CWE-285/CWE-862 | [`GHSA-j2p5-vc4m-xxhx`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-j2p5-vc4m-xxhx) |
-| `opencti` | Unauthenticated resource exhaustion via pre-auth TAXII push body parsing | CWE-400 | [`GHSA-6crf-vqpj-hvr4`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-6crf-vqpj-hvr4) |
-| `opencti` | SSRF via response-controlled pagination URL in JSON ingestion | CWE-918 | [`GHSA-w3h6-4frq-fgm7`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-w3h6-4frq-fgm7) |
-| `CloudTAK` | Missing connection authorization on POST /api/template — cross-tenant ETL layer  | CWE-639/CWE-862 | [`GHSA-rm89-4h58-wv8j`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-rm89-4h58-wv8j) |
-| `CloudTAK` | Profile API tokens never expire and cannot be revoked (deletion is cosmetic) | CWE-613/CWE-863 | [`GHSA-f4cj-5w6j-w765`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-f4cj-5w6j-w765) |
-
-</details>
-
-📂 Runnable PoCs and technical write-ups for every **published &amp; patched** finding live in **[Pig-Tail/security-research](https://github.com/Pig-Tail/security-research)**.
+- 🔭 **Classes I hunt:** RCE &amp; command/arg injection · auth/authz bypass, IDOR &amp; tenant escape · SSRF · path traversal / zip-slip · unsafe deserialization · memory corruption · race/TOCTOU.
+- 🧪 **How I verify:** local instance + benign PoC (sentinel / timing oracle), then an adversarial re-read to kill false positives. No theoretical reports.
+- 🛡️ **Background:** 10+ years in offensive security — red team &amp; ethical hacking (hacking since the early 2010s); red-team infrastructure &amp; malware-dev tradecraft, and CVE research since 2017 (see certifications).
 
 ---
 
@@ -234,3 +226,5 @@ automatically on disclosure.
 ---
 
 <p align="center"><sub>Coordinated disclosure / collaboration → jorge@jmilla.es · <a href="https://twitter.com/jgonzalezmilla">@jgonzalezmilla</a> · <a href="https://github.com/sponsors/Pig-Tail">💖 sponsor</a></sub></p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e5654a,45:b5185c,100:24292f&height=110&section=footer" alt="">
