@@ -68,8 +68,8 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-<details>
-<summary><b>🎯 Assigned CVEs</b> — full table (click to expand)</summary>
+<details open>
+<summary><b>🎯 Assigned CVEs</b> — click to collapse</summary>
 
 ### 🎯 Assigned CVEs (75)
 
@@ -155,8 +155,8 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 </details>
 
-<details>
-<summary><b>🐛 Published GitHub advisories without a CVE</b> — full table (click to expand)</summary>
+<details open>
+<summary><b>🐛 Published GitHub advisories without a CVE</b> — click to collapse</summary>
 
 ### 🐛 Published GitHub advisories (no CVE assigned) (12)
 
