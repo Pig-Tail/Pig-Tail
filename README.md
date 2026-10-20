@@ -8,7 +8,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Assigned_CVEs-75-b5185c?labelColor=24292f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Published_advisories-78-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-79-e5654a?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
 </p>
@@ -117,7 +117,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-67436**](https://www.cve.org/CVERecord?id=CVE-2026-67436) | `monitoring-plugins` | SSRF and auth-token disclosure via unvalidated @odata.id link in redfish | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-96fx-pqc3-28xv) |
 | [**CVE-2026-71315**](https://www.cve.org/CVERecord?id=CVE-2026-71315) | `nuxt` | Nuxt route rules silently dropped for mixed-case paths, bypassing appMid | [advisory](https://github.com/nuxt/nuxt/security/advisories/GHSA-hxvh-4h3w-prp9) |
 | [**CVE-2026-71404**](https://www.cve.org/CVERecord?id=CVE-2026-71404) | `rancher` | Unauthorized ClusterRole overwrite via GlobalRole cr-name annotation | [advisory](https://github.com/rancher/rancher/security/advisories/GHSA-92jp-phmj-wv65) |
-| [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | — |
+| [**CVE-2026-71537**](https://www.cve.org/CVERecord?id=CVE-2026-71537) | `Paymenter` | Credit-refund double-spend race condition in service downgrade (doUpgrad | [advisory](https://github.com/Paymenter/Paymenter/security/advisories/GHSA-5gmm-hjfj-8ff7) |
 | [**CVE-2026-71859**](https://www.cve.org/CVERecord?id=CVE-2026-71859) | `egroupware` | Incomplete fix for GHSA-8737: eTemplate Widget::expand_name() eval sanit | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-pq2v-p84w-89vj) |
 | [**CVE-2026-73616**](https://www.cve.org/CVERecord?id=CVE-2026-73616) | `openremote` | Notification delete crosses realm boundaries: any realm admin destroys o | [advisory](https://github.com/openremote/openremote/security/advisories/GHSA-rc23-4mmm-4fx9) |
 | [**CVE-2026-73854**](https://www.cve.org/CVERecord?id=CVE-2026-73854) | `egroupware` | Authorization bypass via api./about. menuaction prefix → privilege escalation to | [advisory](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
