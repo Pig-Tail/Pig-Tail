@@ -1,8 +1,8 @@
 <h1 align="center">Jorge González Milla</h1>
 <p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-65-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-72-e5654a?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-73-b5185c?labelColor=24292f&style=flat-square">
+  <img src="https://img.shields.io/badge/Published_advisories-76-e5654a?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
@@ -26,7 +26,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (65)
+### 🎯 Assigned CVEs (73)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -81,15 +81,23 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-76078**](https://www.cve.org/CVERecord?id=CVE-2026-76078) | `probo` | Broken access control in public e-signature API: any trust-center visitor can co | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-22xj-f767-ppw6) |
 | [**CVE-2026-76079**](https://www.cve.org/CVERecord?id=CVE-2026-76079) | `probo` | Vertical privilege escalation: an organization ADMIN can mint an OWNER membershi | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-cppp-g98f-gfpp) |
 | [**CVE-2026-76080**](https://www.cve.org/CVERecord?id=CVE-2026-76080) | `probo` | Unauthenticated cross-tenant and hidden-item disclosure via Query.node in the pu | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-w23w-f7v2-625w) |
+| [**CVE-2026-76086**](https://www.cve.org/CVERecord?id=CVE-2026-76086) | `formie` | Integration form-settings action allows SSRF and exfiltration of stored integrat | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-v3f3-cmj4-cvj9) |
+| [**CVE-2026-76087**](https://www.cve.org/CVERecord?id=CVE-2026-76087) | `formie` | Unauthenticated users can overwrite incomplete submissions via submit action | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-584p-f93j-wpgc) |
+| [**CVE-2026-76089**](https://www.cve.org/CVERecord?id=CVE-2026-76089) | `formie` | Missing authorization on sent notification resend modal exposes submission PII | [advisory](https://github.com/verbb/formie/security/advisories/GHSA-9rg8-2wvr-fgjh) |
 | [**CVE-2026-77312**](https://www.cve.org/CVERecord?id=CVE-2026-77312) | `flyto-core` | Arbitrary file write via unguarded data.*/file.* modules (incomplete fix of GHSA | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
 | [**CVE-2026-77316**](https://www.cve.org/CVERecord?id=CVE-2026-77316) | `flyto-core` | SSRF guard bypass via DNS rebinding (validate_url_ssrf resolves-then-connects wi | [advisory](https://github.com/flytohub/flyto-core/security/advisories/GHSA-6pm8-6f34-9v3g) |
 | [**CVE-2026-77435**](https://www.cve.org/CVERecord?id=CVE-2026-77435) | `kiwitcms` | Authenticated SSRF via Bug.details: base_url prefix guard bypass + OpenG | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-3qxv-9j3q-c68v) |
 | [**CVE-2026-77436**](https://www.cve.org/CVERecord?id=CVE-2026-77436) | `kiwitcms` | ORM lookup-injection in RPC *.filter methods (original report; consolida | — |
 | [**CVE-2026-77437**](https://www.cve.org/CVERecord?id=CVE-2026-77437) | `kiwitcms` | Lookup-injection in API methods allows extraction of api_password and pa | [advisory](https://github.com/kiwitcms/Kiwi/security/advisories/GHSA-554x-3chh-x3h9) |
+| [**CVE-2026-78675**](https://www.cve.org/CVERecord?id=CVE-2026-78675) | `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
+| [**CVE-2026-78676**](https://www.cve.org/CVERecord?id=CVE-2026-78676) | `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
+| [**CVE-2026-78677**](https://www.cve.org/CVERecord?id=CVE-2026-78677) | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
+| [**CVE-2026-82659**](https://www.cve.org/CVERecord?id=CVE-2026-82659) | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | [advisory](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
 | [**CVE-2026-93537**](https://www.cve.org/CVERecord?id=CVE-2026-93537) | `fleet` | Path traversal in Helm valuesFiles discloses files outside the bundle directory | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-wpfm-r97v-3j4h) |
 | [**CVE-2026-93538**](https://www.cve.org/CVERecord?id=CVE-2026-93538) | `fleet` | Cross-tenant BundleDeployment/Secret disclosure via spoofed cluster labels | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
 | [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
+| [**CVE-2026-97391**](https://www.cve.org/CVERecord?id=CVE-2026-97391) | `pheditor` | Terminal command-allowlist bypass via argument injection (CWE-88) in pheditor le | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-g3hq-hphg-8fhh) |
 | [**CVE-2026-100414**](https://www.cve.org/CVERecord?id=CVE-2026-100414) | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | [advisory](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
 | [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
@@ -100,15 +108,11 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (15)
+### 🐛 Published GitHub advisories (no CVE assigned) (11)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
 | `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 | [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
-| `GitPython` | Arbitrary local file content disclosure via [include] directive in untrusted .gi | CWE-73/CWE-200 | [`GHSA-7833-fr7j-v32q`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-7833-fr7j-v32q) |
-| `GitPython` | Dormant multi-line git-config values are corrupted into live injected directives | CWE-88/CWE-94 | [`GHSA-284h-m62q-gf8w`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
-| `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | CWE-22/CWE-73 | [`GHSA-8mcc-hrx5-hvxc`](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
-| `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | CWE-73/CWE-918 | [`GHSA-p6gq-j5cr-w38f`](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
 | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
