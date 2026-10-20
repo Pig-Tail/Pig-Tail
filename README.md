@@ -1,14 +1,27 @@
-<h1 align="center">Jorge González Milla</h1>
-<p align="center"><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Assigned_CVEs-73-b5185c?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Published_advisories-76-e5654a?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=flat-square">
-  <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=flat-square">
+<div align="center">
+
+<h1>Jorge González Milla</h1>
+
+<p><b><code>Pig-Tail</code></b> · Offensive Security Engineer · Vulnerability Researcher · Red Teamer</p>
+
+<a href="https://github.com/Pig-Tail"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=E5654A&center=true&vCenter=true&width=640&lines=attack+surface+%E2%86%92+taint+%E2%86%92+working+PoC+%E2%86%92+CVE;RCE+%C2%B7+authz+bypass+%C2%B7+SSRF+%C2%B7+deserialization+%C2%B7+memory+safety;coordinated+disclosure%2C+no+theoretical+reports" alt="attack surface → taint → working PoC → CVE"></a>
+
+<p>
+  <img src="https://img.shields.io/badge/Assigned_CVEs-75-b5185c?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-78-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
+</p>
+<p>
+  <a href="https://github.com/advisories?query=credit%3APig-Tail"><img src="https://img.shields.io/badge/GitHub_advisory_credits-21-2da44e?logo=github&labelColor=24292f&style=flat-square"></a>
+  <a href="https://github.com/sponsors/Pig-Tail"><img src="https://img.shields.io/badge/Sponsored-for_vuln_reports-db61a2?logo=githubsponsors&logoColor=white&labelColor=24292f&style=flat-square"></a>
+  <a href="https://github.com/Pig-Tail/security-research"><img src="https://img.shields.io/badge/PoCs_%26_write--ups-security--research-8957e5?logo=github&labelColor=24292f&style=flat-square"></a>
   <img src="https://img.shields.io/badge/Red_Team-10%2B_years-8b95a5?labelColor=24292f&style=flat-square">
   <img src="https://img.shields.io/badge/CVE_research-since_2017-8b95a5?labelColor=24292f&style=flat-square">
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
+
+</div>
 
 ---
 
@@ -26,7 +39,39 @@ Go/Rust/PHP/Python, and red-team tooling.
 
 ---
 
-### 🎯 Assigned CVEs (73)
+### ⚡ Highlights
+
+| | Target | Finding | ID |
+|:--:|:--|:--|:--|
+| 🟥 | **OpenAM** | WebAuthn Java deserialization → **RCE** (CVSS 9.2) | [CVE-2026-62263](https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-gf8h-gq53-288j) |
+| 🟥 | **GitPython** | Dormant git-config values turned into live directives (`core.hooksPath`) → **RCE** (CVSS 9.3) | [CVE-2026-78676](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-284h-m62q-gf8w) |
+| 🟥 | **Steeltoe NetCoreToolService** | **Unauthenticated RCE** via argument injection into `dotnet new` | [GHSA-f5m5-jfmq-ghpx](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
+| 🟥 | **EGroupware** | Authorization bypass via `api.`/`about.` menuaction prefix → **privilege escalation** | [CVE-2026-73854](https://github.com/EGroupware/egroupware/security/advisories/GHSA-76q5-2jm8-x8c3) |
+| 🟥 | **flyto-core** | **Arbitrary file write** via unguarded `data.*`/`file.*` modules | [CVE-2026-77312](https://github.com/flytohub/flyto-core/security/advisories/GHSA-p34x-fmph-9fjx) |
+| 🟧 | **Rancher** | Ownership-less ClusterRole overwrite → **cluster privilege escalation** (CVSS 8.7) | [CVE-2026-71404](https://github.com/rancher/rancher/security/advisories/GHSA-92jp-phmj-wv65) |
+| 🟧 | **Rancher Fleet** | Cross-tenant BundleDeployment / **Secret disclosure** + 2 more | [CVE-2026-93537…39](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
+| 🟧 | **Zalando Skipper** | OPA body-authz bypass on chunked / HTTP-2 bodies (CVSS 7.5) | [CVE-2026-86043](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
+| 🟧 | **SimpleSAMLphp saml2** | Unsigned embedded Response bypasses HTTP-Artifact binding (**incomplete fix**) | [CVE-2026-110782](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
+| 🟧 | **Probo** | **Account takeover** via OIDC `continue` redirect | [GHSA-r9mf-88r7-g6j9](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
+
+<sub>🟥 Critical · 🟧 High — severity as rated by the vendor / CNA. Full lists below.</sub>
+
+---
+
+### 🏅 Recognition
+
+- 🛡️ **[21 GitHub Security Advisory credits](https://github.com/advisories?query=credit%3APig-Tail)** as reporter / finder in the GitHub Advisory Database.
+- 💖 **Sponsored via GitHub Sponsors by [@ingalls](https://github.com/ingalls)** — maintainer of [dfpc-coe/CloudTAK](https://github.com/dfpc-coe/CloudTAK) — in recognition of vulnerability reports.
+- 📜 **Credited in the [wolfSSL 5.9.4 release notes](https://github.com/wolfSSL/wolfssl/blob/v5.9.4-stable/ChangeLog.md)** — CVE-2026-89134 (*"Thanks to Jorge Milla (Pig-Tail) for the report"*) and the DTLS 1.3 hardening (*"Reported by Jorge Milla (Pig-Tail)"*).
+- 🏆 **GitHub achievement:** [Pair Extraordinaire](https://github.com/Pig-Tail?achievement=pair-extraordinaire&tab=achievements).
+- 🙌 **Publicly credited** by OpenStreetMap, wolfSSL, SUSE/Rancher, VulnCheck and the EEF CNA, among others — see the CVE records and the disclosures below.
+
+---
+
+<details>
+<summary><b>🎯 Assigned CVEs</b> — full table (click to expand)</summary>
+
+### 🎯 Assigned CVEs (75)
 
 | CVE | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|
@@ -65,6 +110,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-63432**](https://www.cve.org/CVERecord?id=CVE-2026-63432) | `horilla-hr` | Server-Side Template Injection (SSTI) in Mail Preview Endpoints Allows A | [advisory](https://github.com/horilla/horilla-hr/security/advisories/GHSA-9p83-4w63-7c24) |
 | [**CVE-2026-63444**](https://www.cve.org/CVERecord?id=CVE-2026-63444) | `glpi-agent` | OS Command Injection via server-controlled archive filename in Deploy ta | — |
 | [**CVE-2026-63505**](https://www.cve.org/CVERecord?id=CVE-2026-63505) | `probo` | Cross-tenant IDOR via unvalidated FK references | [advisory](https://github.com/getprobo/probo/security/advisories/GHSA-c74x-79w6-63jh) |
+| [**CVE-2026-63744**](https://www.cve.org/CVERecord?id=CVE-2026-63744) | `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | [advisory](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | [**CVE-2026-64662**](https://www.cve.org/CVERecord?id=CVE-2026-64662) | `statamic` | Missing authorization on navigation endpoint allows disclosure of restri | [advisory](https://github.com/statamic/cms/security/advisories/GHSA-qh8c-7588-qfrv) |
 | [**CVE-2026-67433**](https://www.cve.org/CVERecord?id=CVE-2026-67433) | `monitoring-plugins` | Symlink following in logfile legacy database migration | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-w2gg-hx6w-24w3) |
 | [**CVE-2026-67435**](https://www.cve.org/CVERecord?id=CVE-2026-67435) | `monitoring-plugins` | fetch() forwards credential headers across a cross-origin redirect | [advisory](https://github.com/Linuxfabrik/monitoring-plugins/security/advisories/GHSA-4jc5-g844-4x33) |
@@ -94,6 +140,7 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-78677**](https://www.cve.org/CVERecord?id=CVE-2026-78677) | `GitPython` | clone_from()/clone() omit --separate-git-dir from unsafe_git_clone_options, enab | [advisory](https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-8mcc-hrx5-hvxc) |
 | [**CVE-2026-82659**](https://www.cve.org/CVERecord?id=CVE-2026-82659) | `nodemailer` | Message-level raw option bypasses disableFileAccess/disableUrlAccess, enabling a | [advisory](https://github.com/nodemailer/nodemailer/security/advisories/GHSA-p6gq-j5cr-w38f) |
 | [**CVE-2026-86043**](https://www.cve.org/CVERecord?id=CVE-2026-86043) | `skipper` | OPA body-authz bypass: truncated_body mitigation fails open on chunked/HTTP-2 | [advisory](https://github.com/zalando/skipper/security/advisories/GHSA-5gpm-rgj3-9q76) |
+| [**CVE-2026-89134**](https://www.cve.org/CVERecord?id=CVE-2026-89134) | `wolfssl` | Subject CN name-constraint check bypassed when non-DNS SAN present | — |
 | [**CVE-2026-93537**](https://www.cve.org/CVERecord?id=CVE-2026-93537) | `fleet` | Path traversal in Helm valuesFiles discloses files outside the bundle directory | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-wpfm-r97v-3j4h) |
 | [**CVE-2026-93538**](https://www.cve.org/CVERecord?id=CVE-2026-93538) | `fleet` | Cross-tenant BundleDeployment/Secret disclosure via spoofed cluster labels | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-h9p5-fp5h-qpqr) |
 | [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
@@ -101,20 +148,22 @@ Go/Rust/PHP/Python, and red-team tooling.
 | [**CVE-2026-100414**](https://www.cve.org/CVERecord?id=CVE-2026-100414) | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | [advisory](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
 | [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
-| **CVE-2026-104258** | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
+| [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
 | [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
----
+</details>
 
-### 🐛 Published GitHub advisories (no CVE assigned) (11)
+<details>
+<summary><b>🐛 Published GitHub advisories without a CVE</b> — full table (click to expand)</summary>
+
+### 🐛 Published GitHub advisories (no CVE assigned) (12)
 
 | Project | Vulnerability | CWE | Advisory |
 |:--|:--|:--|:--|
 | `NetCoreToolService` | Unauthenticated RCE via argument injection into 'dotnet new' in NetCoreToolServi | CWE-88 | [`GHSA-f5m5-jfmq-ghpx`](https://github.com/SteeltoeOSS/security-advisories/security/advisories/GHSA-f5m5-jfmq-ghpx) |
 | `probo` | Account takeover via OIDC login: the continue redirect hands the victim's root-s | CWE-384/CWE-601 | [`GHSA-r9mf-88r7-g6j9`](https://github.com/getprobo/probo/security/advisories/GHSA-r9mf-88r7-g6j9) |
-| `surrealdb` | SSRF via JWKS URL — Redirect Following in JWT Key Fetch | CWE-918 | [`GHSA-h5rg-8p7f-47g2`](https://github.com/surrealdb/surrealdb/security/advisories/GHSA-h5rg-8p7f-47g2) |
 | `glpi-agent` | Oracle inventory module uses unvalidated process username in shell su command | CWE-78 | [`GHSA-vwv6-85p7-mjvc`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-vwv6-85p7-mjvc) |
 | `glpi-agent` | Collect task compiles server-controlled regular expression without validation | CWE-1333 | [`GHSA-mgcf-xgv7-5w4x`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-mgcf-xgv7-5w4x) |
 | `glpi-agent` | Stored XSS via SNMP community/authprotocol credential fields in ToolBox plugin | CWE-79 | [`GHSA-cwg9-jj5m-pq4q`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-cwg9-jj5m-pq4q) |
@@ -123,12 +172,18 @@ Go/Rust/PHP/Python, and red-team tooling.
 | `opencti` | Read-only KNOWLEDGE user can delete other users' draft workspaces | CWE-285/CWE-862 | [`GHSA-j2p5-vc4m-xxhx`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-j2p5-vc4m-xxhx) |
 | `opencti` | Unauthenticated resource exhaustion via pre-auth TAXII push body parsing | CWE-400 | [`GHSA-6crf-vqpj-hvr4`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-6crf-vqpj-hvr4) |
 | `opencti` | SSRF via response-controlled pagination URL in JSON ingestion | CWE-918 | [`GHSA-w3h6-4frq-fgm7`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-w3h6-4frq-fgm7) |
+| `CloudTAK` | Missing connection authorization on POST /api/template — cross-tenant ETL layer  | CWE-639/CWE-862 | [`GHSA-rm89-4h58-wv8j`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-rm89-4h58-wv8j) |
+| `CloudTAK` | Profile API tokens never expire and cannot be revoked (deletion is cosmetic) | CWE-613/CWE-863 | [`GHSA-f4cj-5w6j-w765`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-f4cj-5w6j-w765) |
+
+</details>
+
+📂 Runnable PoCs and technical write-ups for every **published &amp; patched** finding live in **[Pig-Tail/security-research](https://github.com/Pig-Tail/security-research)**.
 
 ---
 
 ### 🔬 Research &amp; vendor disclosures
 
-- **wolfSSL — X.509 DNS name-constraint bypass** (CWE-295) · A leaf carrying a `registeredID` (or `iPAddress`) SAN sets `altNames != NULL`, which suppresses the CN-as-DNS name-constraint check in `ConfirmNameConstraints()` while the CN is still used to authenticate the peer — a **DNS-name-constrained sub-CA can impersonate arbitrary hosts**. Incomplete fix / regression of **CVE-2026-6731**. Reported with a working PoC; reproduced and fixed by wolfSSL in [PR #10837](https://github.com/wolfSSL/wolfssl/pull/10837). *(CVE pending.)*
+- **wolfSSL — X.509 DNS name-constraint bypass** · [**CVE-2026-89134**](https://www.cve.org/CVERecord?id=CVE-2026-89134) (CWE-295) · A leaf carrying a `registeredID` (or `iPAddress`) SAN sets `altNames != NULL`, which suppresses the CN-as-DNS name-constraint check in `ConfirmNameConstraints()` while the CN is still used to authenticate the peer — a **DNS-name-constrained sub-CA can impersonate arbitrary hosts**. Incomplete fix / regression of **CVE-2026-6731**. Reported with a working PoC; reproduced and fixed by wolfSSL in [PR #10837](https://github.com/wolfSSL/wolfssl/pull/10837).
 - **wolfSSL — PKCS7 / DTLS 1.3 hardening** · Two PKCS7 non-streaming bounds over-reads (EnvelopedData IV, AuthEnvelopedData authTag) + an unbounded DTLS 1.3 `WriteDup` ACK-list growth (memory-exhaustion DoS). Fixed &amp; merged in [PR #10833](https://github.com/wolfSSL/wolfssl/pull/10833).
 - **Microsoft Windows — StorSvc RPC EoP** · The Storage Service registers its ALPC/RPC interface (`44d1520b-…`) with a **NULL security callback and NULL security descriptor**, so any unprivileged local user can invoke all 36 procedures. `SvcTriggerStorageCleanup` drives `StorSvc` (SYSTEM) into `CreateProcessW("cleanmgr.exe", …)` **without impersonating the caller** → SYSTEM process creation from a standard user (missing authorization, CWE-285). Reported to MSRC — Case **111782** (VULN-180255). *(Related tooling: [alpc-toolkit](https://github.com/Pig-Tail/alpc-toolkit).)*
 - **OpenStreetMap** · Reported and fixed several issues in the OSM website, **publicly credited** by the project: TOTP-cookie handling, CSP rules, and a private-message rate-limit bypass — [PR #7045](https://github.com/openstreetmap/openstreetmap-website/pull/7045) · [#7046](https://github.com/openstreetmap/openstreetmap-website/pull/7046) · [#7047](https://github.com/openstreetmap/openstreetmap-website/pull/7047) · [announcement](https://community.openstreetmap.org/t/what-s-new-on-the-openstreetmap-website/130080/30).
@@ -158,7 +213,9 @@ automatically on disclosure.
 
 ---
 
-### 🎓 Certifications &amp; training (58 total)
+<details>
+<summary><b>🎓 Certifications &amp; training (58 total)</b> — click to expand</summary>
+
 
 | Category | Certifications &amp; courses (→ PDF) |
 |:--|:--|
@@ -172,6 +229,8 @@ automatically on disclosure.
 
 <sub>→ full indexed set (58 certificates) in <a href="https://github.com/Pig-Tail/Cert">Pig-Tail/Cert</a>.</sub>
 
+</details>
+
 ---
 
-<p align="center"><sub>Coordinated disclosure / collaboration → jorge@jmilla.es · <a href="https://twitter.com/jgonzalezmilla">@jgonzalezmilla</a></sub></p>
+<p align="center"><sub>Coordinated disclosure / collaboration → jorge@jmilla.es · <a href="https://twitter.com/jgonzalezmilla">@jgonzalezmilla</a> · <a href="https://github.com/sponsors/Pig-Tail">💖 sponsor</a></sub></p>
