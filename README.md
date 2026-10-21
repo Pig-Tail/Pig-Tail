@@ -5,8 +5,8 @@
 <a href="https://github.com/Pig-Tail"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=E5654A&center=true&vCenter=true&width=640&lines=attack+surface+%E2%86%92+taint+%E2%86%92+working+PoC+%E2%86%92+CVE;RCE+%C2%B7+authz+bypass+%C2%B7+SSRF+%C2%B7+deserialization+%C2%B7+memory+safety;coordinated+disclosure%2C+no+theoretical+reports" alt="attack surface → taint → working PoC → CVE"></a>
 
 <p>
-  <img src="https://img.shields.io/badge/Assigned_CVEs-75-b5185c?labelColor=24292f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Published_advisories-79-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-76-b5185c?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-80-e5654a?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
 </p>
@@ -19,13 +19,13 @@
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
-<sub><!--sev:start-->**5** 🟥 Critical · **37** 🟧 High · **28** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
+<sub><!--sev:start-->**5** 🟥 Critical · **38** 🟧 High · **28** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
 
 </div>
 
 ---
 
-### 🎯 Assigned CVEs (75)
+### 🎯 Assigned CVEs (76)
 
 | CVE | Severity | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|:--|
@@ -100,6 +100,7 @@
 | [**CVE-2026-93539**](https://www.cve.org/CVERecord?id=CVE-2026-93539) | 🟨 Medium | `fleet` | Unauthenticated GitRepo spec mutation via Fleet git webhook receiver | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-8vfv-33cg-g75q) |
 | [**CVE-2026-97391**](https://www.cve.org/CVERecord?id=CVE-2026-97391) | 🟧 High | `pheditor` | Terminal command-allowlist bypass via argument injection (CWE-88) in pheditor le | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-g3hq-hphg-8fhh) |
 | [**CVE-2026-100414**](https://www.cve.org/CVERecord?id=CVE-2026-100414) | 🟧 High | `python-statemachine` | SCXML <data src="file://…"> reads arbitrary local files when loading an untruste | [advisory](https://github.com/fgmacedo/python-statemachine/security/advisories/GHSA-fj3w-533r-fvf6) |
+| [**CVE-2026-102650**](https://www.cve.org/CVERecord?id=CVE-2026-102650) | 🟧 High | `nuxt-content` | Unauthenticated denial of service via SQLite functions in /__nuxt_content/:colle | [advisory](https://github.com/nuxt/content/security/advisories/GHSA-xxrh-5hgg-gj4h) |
 | [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | 🟨 Medium | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | 🟨 Medium | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
 | [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | · | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
