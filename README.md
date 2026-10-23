@@ -6,7 +6,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Assigned_CVEs-76-b5185c?labelColor=24292f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Published_advisories-80-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-82-e5654a?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
 </p>
@@ -19,7 +19,7 @@
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
-<sub><!--sev:start-->**5** 🟥 Critical · **38** 🟧 High · **28** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
+<sub><!--sev:start-->**5** 🟥 Critical · **39** 🟧 High · **29** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
 
 </div>
 
@@ -103,14 +103,14 @@
 | [**CVE-2026-102650**](https://www.cve.org/CVERecord?id=CVE-2026-102650) | 🟧 High | `nuxt-content` | Unauthenticated denial of service via SQLite functions in /__nuxt_content/:colle | [advisory](https://github.com/nuxt/content/security/advisories/GHSA-xxrh-5hgg-gj4h) |
 | [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | 🟨 Medium | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | 🟨 Medium | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
-| [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | · | `opencti` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
+| [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | 🟨 Medium | `opencti` | SSRF via webhook notifier allows authenticated users to reach internal services | [advisory](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
 | [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | 🟧 High | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (12)
+### 🐛 Published GitHub advisories (no CVE assigned) (13)
 
 | Advisory | Severity | Project | Vulnerability | CWE |
 |:--|:--|:--|:--|:--|
@@ -126,6 +126,7 @@
 | [`GHSA-w3h6-4frq-fgm7`](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-w3h6-4frq-fgm7) | 🟧 High | `opencti` | SSRF via response-controlled pagination URL in JSON ingestion | CWE-918 |
 | [`GHSA-rm89-4h58-wv8j`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-rm89-4h58-wv8j) | 🟨 Medium | `CloudTAK` | Missing connection authorization on POST /api/template — cross-tenant ETL layer  | CWE-639/CWE-862 |
 | [`GHSA-f4cj-5w6j-w765`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-f4cj-5w6j-w765) | 🟨 Medium | `CloudTAK` | Profile API tokens never expire and cannot be revoked (deletion is cosmetic) | CWE-613/CWE-863 |
+| [`GHSA-h7x6-9mqf-vgmx`](https://github.com/avo-hq/avo/security/advisories/GHSA-h7x6-9mqf-vgmx) | 🟧 High | `avo` | Global Avo.configuration.locale mutation via params[:set_locale] (process-wide s | CWE-471/CWE-1188 |
 
 📂 Runnable PoCs and technical write-ups for every **published &amp; patched** finding live in **[Pig-Tail/security-research](https://github.com/Pig-Tail/security-research)**.
 
