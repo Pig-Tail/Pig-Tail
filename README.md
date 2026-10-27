@@ -6,7 +6,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Assigned_CVEs-77-b5185c?labelColor=24292f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Published_advisories-82-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-83-e5654a?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
 </p>
@@ -19,7 +19,7 @@
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
-<sub><!--sev:start-->**5** 🟥 Critical · **39** 🟧 High · **29** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
+<sub><!--sev:start-->**5** 🟥 Critical · **40** 🟧 High · **29** 🟨 Medium · **10** 🟩 Low<!--sev:end--></sub>
 
 </div>
 
@@ -105,7 +105,7 @@
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | 🟨 Medium | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
 | [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | 🟨 Medium | `opencti` | SSRF via webhook notifier allows authenticated users to reach internal services | [advisory](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
 | [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | 🟧 High | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
-| [**CVE-2026-115894**](https://www.cve.org/CVERecord?id=CVE-2026-115894) | · | `pimcore` | Advisory under coordinated disclosure — details withheld until published | [advisory (private)](https://github.com/pimcore/pimcore/security/advisories/GHSA-7gfm-v2fx-xrxm) |
+| [**CVE-2026-115894**](https://www.cve.org/CVERecord?id=CVE-2026-115894) | 🟧 High | `pimcore` | Incomplete Twig sandbox hardening exposes admin password hashes, recovery tokens | [advisory](https://github.com/pimcore/pimcore/security/advisories/GHSA-7gfm-v2fx-xrxm) |
 
 <sub>CVE records are public at cve.org; some GitHub advisories are resolved privately (no public advisory page).</sub>
 
