@@ -6,7 +6,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/Assigned_CVEs-78-b5185c?labelColor=24292f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Published_advisories-85-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-86-e5654a?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
 </p>
@@ -19,7 +19,7 @@
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
-<sub><!--sev:start-->**5** 🟥 Critical · **40** 🟧 High · **30** 🟨 Medium · **11** 🟩 Low<!--sev:end--></sub>
+<sub><!--sev:start-->**5** 🟥 Critical · **40** 🟧 High · **31** 🟨 Medium · **11** 🟩 Low<!--sev:end--></sub>
 
 </div>
 
@@ -112,7 +112,7 @@
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (14)
+### 🐛 Published GitHub advisories (no CVE assigned) (15)
 
 | Advisory | Severity | Project | Vulnerability | CWE |
 |:--|:--|:--|:--|:--|
@@ -130,6 +130,7 @@
 | [`GHSA-f4cj-5w6j-w765`](https://github.com/dfpc-coe/CloudTAK/security/advisories/GHSA-f4cj-5w6j-w765) | 🟨 Medium | `CloudTAK` | Profile API tokens never expire and cannot be revoked (deletion is cosmetic) | CWE-613/CWE-863 |
 | [`GHSA-h7x6-9mqf-vgmx`](https://github.com/avo-hq/avo/security/advisories/GHSA-h7x6-9mqf-vgmx) | 🟧 High | `avo` | Global Avo.configuration.locale mutation via params[:set_locale] (process-wide s | CWE-471/CWE-1188 |
 | [`GHSA-wc2f-fvpv-c32r`](https://github.com/openemr/openemr/security/advisories/GHSA-wc2f-fvpv-c32r) | 🟩 Low | `openemr` | Active Debug Code in fax_view.php Discloses Web Server Group Membership | CWE-200/CWE-489 |
+| [`GHSA-pfv7-m2fh-6g4v`](https://github.com/crate/crate/security/advisories/GHSA-pfv7-m2fh-6g4v) | 🟨 Medium | `crate` | SSRF via COPY FROM http(s) URLs reachable by any low-privilege DML user | CWE-918 |
 
 📂 Runnable PoCs and technical write-ups for every **published &amp; patched** finding live in **[Pig-Tail/security-research](https://github.com/Pig-Tail/security-research)**.
 
