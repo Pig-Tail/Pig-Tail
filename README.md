@@ -5,8 +5,8 @@
 <a href="https://github.com/Pig-Tail"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3200&pause=900&color=E5654A&center=true&vCenter=true&width=640&lines=attack+surface+%E2%86%92+taint+%E2%86%92+working+PoC+%E2%86%92+CVE;RCE+%C2%B7+authz+bypass+%C2%B7+SSRF+%C2%B7+deserialization+%C2%B7+memory+safety;coordinated+disclosure%2C+no+theoretical+reports" alt="attack surface → taint → working PoC → CVE"></a>
 
 <p>
-  <img src="https://img.shields.io/badge/Assigned_CVEs-78-b5185c?labelColor=24292f&style=for-the-badge">
-  <img src="https://img.shields.io/badge/Published_advisories-86-e5654a?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Assigned_CVEs-79-b5185c?labelColor=24292f&style=for-the-badge">
+  <img src="https://img.shields.io/badge/Published_advisories-88-e5654a?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Vulns_reported-198+-d9822b?labelColor=24292f&style=for-the-badge">
   <img src="https://img.shields.io/badge/Projects-67+-56b6c2?labelColor=24292f&style=for-the-badge">
 </p>
@@ -19,13 +19,13 @@
   <a href="https://twitter.com/jgonzalezmilla"><img src="https://img.shields.io/badge/X-@jgonzalezmilla-1DA1F2?logo=x&logoColor=white&style=flat-square"></a>
 </p>
 
-<sub><!--sev:start-->**5** 🟥 Critical · **40** 🟧 High · **31** 🟨 Medium · **11** 🟩 Low<!--sev:end--></sub>
+<sub><!--sev:start-->**5** 🟥 Critical · **42** 🟧 High · **31** 🟨 Medium · **11** 🟩 Low<!--sev:end--></sub>
 
 </div>
 
 ---
 
-### 🎯 Assigned CVEs (78)
+### 🎯 Assigned CVEs (79)
 
 | CVE | Severity | Project | Vulnerability | GitHub |
 |:--|:--|:--|:--|:--|
@@ -104,6 +104,7 @@
 | [**CVE-2026-102836**](https://www.cve.org/CVERecord?id=CVE-2026-102836) | 🟨 Medium | `pheditor` | MAIN_DIR confinement bypass via check_path() prefix match (missing trailing sepa | [advisory](https://github.com/pheditor/pheditor/security/advisories/GHSA-j2m3-vvw9-gc43) |
 | [**CVE-2026-103020**](https://www.cve.org/CVERecord?id=CVE-2026-103020) | 🟨 Medium | `openemr` | Unauthenticated disclosure of DB names and versions via admin.php | [advisory](https://github.com/openemr/openemr/security/advisories/GHSA-q366-cv5v-83w8) |
 | [**CVE-2026-104258**](https://www.cve.org/CVERecord?id=CVE-2026-104258) | 🟨 Medium | `opencti` | SSRF via webhook notifier allows authenticated users to reach internal services | [advisory](https://github.com/OpenCTI-Platform/opencti/security/advisories/GHSA-5gxq-gqvj-wccm) |
+| [**CVE-2026-104615**](https://www.cve.org/CVERecord?id=CVE-2026-104615) | 🟧 High | `fleet` | Cluster identity takeover in Fleet cluster registration allows access to another | [advisory](https://github.com/rancher/fleet/security/advisories/GHSA-gx8v-2929-9q95) |
 | [**CVE-2026-110782**](https://www.cve.org/CVERecord?id=CVE-2026-110782) | 🟧 High | `saml2` | Incomplete fix of CVE-2026-49283: unsigned embedded Response bypasses HTTP-Artif | [advisory](https://github.com/simplesamlphp/saml2/security/advisories/GHSA-r7hw-jx6r-756g) |
 | [**CVE-2026-115894**](https://www.cve.org/CVERecord?id=CVE-2026-115894) | 🟧 High | `pimcore` | Incomplete Twig sandbox hardening exposes admin password hashes, recovery tokens | [advisory](https://github.com/pimcore/pimcore/security/advisories/GHSA-7gfm-v2fx-xrxm) |
 | [**CVE-2026-116695**](https://www.cve.org/CVERecord?id=CVE-2026-116695) | 🟨 Medium | `crass` | Incorrect tokenization of bad URLs enables CSS sanitizer bypass | [advisory](https://github.com/rgrove/crass/security/advisories/GHSA-pq4g-8rxf-4g29) |
@@ -112,7 +113,7 @@
 
 ---
 
-### 🐛 Published GitHub advisories (no CVE assigned) (15)
+### 🐛 Published GitHub advisories (no CVE assigned) (16)
 
 | Advisory | Severity | Project | Vulnerability | CWE |
 |:--|:--|:--|:--|:--|
@@ -131,6 +132,7 @@
 | [`GHSA-h7x6-9mqf-vgmx`](https://github.com/avo-hq/avo/security/advisories/GHSA-h7x6-9mqf-vgmx) | 🟧 High | `avo` | Global Avo.configuration.locale mutation via params[:set_locale] (process-wide s | CWE-471/CWE-1188 |
 | [`GHSA-wc2f-fvpv-c32r`](https://github.com/openemr/openemr/security/advisories/GHSA-wc2f-fvpv-c32r) | 🟩 Low | `openemr` | Active Debug Code in fax_view.php Discloses Web Server Group Membership | CWE-200/CWE-489 |
 | [`GHSA-pfv7-m2fh-6g4v`](https://github.com/crate/crate/security/advisories/GHSA-pfv7-m2fh-6g4v) | 🟨 Medium | `crate` | SSRF via COPY FROM http(s) URLs reachable by any low-privilege DML user | CWE-918 |
+| [`GHSA-q2j6-54g3-jhcj`](https://github.com/glpi-project/glpi-agent/security/advisories/GHSA-q2j6-54g3-jhcj) | 🟧 High | `glpi-agent` | MySQL client option-file injection via unsanitized server-supplied credential fi | CWE-74/CWE-94 |
 
 📂 Runnable PoCs and technical write-ups for every **published &amp; patched** finding live in **[Pig-Tail/security-research](https://github.com/Pig-Tail/security-research)**.
 
